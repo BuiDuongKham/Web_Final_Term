@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <title>Document</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+      color: #777777;
+      line-height: 1.7em;
+      font-weight: 400;
+      background: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+    
+    img {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+<section style="background-color: #fafafa;">
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+    <div
+      style="text-transform: uppercase;font-size: 16px; font-weight: 500;letter-spacing: 5px;font-family: 'Poppins', sans-serif; color: #ec167f">
+      ABOUT CONFERENCE
+    </div>
+    <div style="font-size: 48px;line-height: 1.2em;font-weight: 700;color: #1e1f36;">
+      Schedule Plan
+    </div>
+  </div>
+  <div>
+    <!--    Select Buttons-->
+    <!--      Button 1: 01 Jan-->
+    <button class="schedule-button" id="chosed-button" name="day1"
+      style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+      <span
+        style="background-color: #ffc20b; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
+        Day 01
+      </span>
+      <span
+        style="color: #ffc20b; position: absolute; left: -0; top: 80px; width: 100px; text-align: center; font-size: 38px; line-height: 20px; font-weight: 600 ">
+        01
+      </span>
+      <span
+        style="color: #ffc20b; display: block; font-size: 20px; line-height: 1em; font-weight: 600; text-transform: uppercase;">
+       Jan
+      </span>
+      2023
+    </button>
+    <!--      Button 2: 02 Jan-->
+    <button class="schedule-button" name="day2"
+      style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+      <span
+        style="background-color: #40cbb4; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
+        Day 02
+      </span>
+      <span
+        style="color: #40cbb4; position: absolute; left: -0; top: 80px; width: 100px; text-align: center; font-size: 38px; line-height: 20px; font-weight: 600 ">
+        02
+      </span>
+      <span
+        style="color: #40cbb4; display: block; font-size: 20px; line-height: 1em; font-weight: 600; text-transform: uppercase;">
+       Jan
+      </span>
+      2023
+    </button>
+    <!--      Button 3: 03 Jan-->
+    <button class="schedule-button" name="day3"
+      style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+      <span
+        style="background-color: #4c35a9; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
+        Day 03
+      </span>
+      <span
+        style="color: #4c35a9; position: absolute; left: -0; top: 80px; width: 100px; text-align: center; font-size: 38px; line-height: 20px; font-weight: 600 ">
+        03
+      </span>
+      <span
+        style="color: #4c35a9; display: block; font-size: 20px; line-height: 1em; font-weight: 600; text-transform: uppercase;">
+       Jan
+      </span>
+      2023
+    </button>
+    <!--      Button 4: 04 Jan-->
+    <button class="schedule-button" name="day4"
+      style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+      <span
+        style="background-color: #e6275a; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
+        Day 04
+      </span>
+      <span
+        style="color: #e6275a; position: absolute; left: -0; top: 80px; width: 100px; text-align: center; font-size: 38px; line-height: 20px; font-weight: 600 ">
+        04
+      </span>
+      <span
+        style="color: #e6275a; display: block; font-size: 20px; line-height: 1em; font-weight: 600; text-transform: uppercase;">
+       Jan
+      </span>
+      2023
+    </button>
+    <!--    Schedule Details-->
+    <div>
+    </div>
+  </div>
+</section>
+<script>
+  const buttons = document.getElementsByClassName('schedule-button')
+  for (let element of buttons)
+  {
+    element.addEventListener('click', (event)=>{choseDay(event)});
+    if (element.attributes['id'] !== undefined && element.attributes['id'].value === "chosed-button")
+    {
+      if (element.attributes['name'].value === "day1"){
+        element.style.boxShadow = '0px 0px 30px rgba(227, 208, 54, 0.3)'
+        element.style.border = '1px solid rgb(255,203,0)'
+      } else if (element.attributes['name'].value === 'day2')
+      {
+        element.style.boxShadow = '0 0px 30px rgba(64,203,180,.30)'
+        element.style.border = '1px solid rgb(57,219,189)'
+      } else if (element.attributes['name'].value === 'day3')
+      {
+        element.style.boxShadow = '0 0px 30px rgba(76,53,169,.30)'
+        element.style.border = '1px solid rgb(128,0,255)'
+      } else
+      {
+        element.style.boxShadow = '0 0px 30px rgba(230,39,90,.30)'
+        element.style.border = '1px solid rgb(255, 0, 0)'
+      }
+    }
+    else {
+      element.style.boxShadow = 'none'
+      element.style.border = '1px solid #dddddd'
+    }
+  }
+  const choseDay = (event) =>
+  {
+    const buttons = document.getElementsByClassName('schedule-button')
+    
+    for (let element of buttons)
+    {
+      if (element.attributes['id'] === 'chosed-button' ) {element.setAttribute('id','')}
+      if (element === event.target){
+        element.setAttribute('id','chosed-button')
+        if (element.attributes['name'].value === "day1"){
+          element.style.boxShadow = '0px 0px 30px rgba(227, 208, 54, 0.3)'
+          element.style.border = '1px solid rgb(255,203,0)'
+        } else if (element.attributes['name'].value === 'day2')
+        {
+          element.style.boxShadow = '0 0px 30px rgba(64,203,180,.30)'
+          element.style.border = '1px solid rgb(57,219,189)'
+        } else if (element.attributes['name'].value === 'day3')
+        {
+          element.style.boxShadow = '0 0px 30px rgba(76,53,169,.30)'
+          element.style.border = '1px solid rgb(128,0,255)'
+        } else
+        {
+          element.style.boxShadow = '0 0px 30px rgba(230,39,90,.30)'
+          element.style.border = '1px solid rgb(255, 0, 0)'
+        }
+      }
+      else {
+        element.style.boxShadow = 'none'
+        element.style.border = '1px solid #dddddd'
+      }
+    }
+  }
+</script>
+</body>
+</html>
