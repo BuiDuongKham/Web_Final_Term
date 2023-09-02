@@ -40,6 +40,82 @@
       margin: 0;
       padding: 0;
     }
+    
+    .inner {
+    
+    }
+    
+    .inner1:before {
+      position: absolute;
+      top: 0;
+      bottom: -30px;
+      right: 100%;
+      border-left: 2px dashed #ffc20b;
+      content: "";
+      margin-right: 80px;
+    }
+    
+    .inner1:after {
+      position: absolute;
+      right: 100%;
+      top: 35px;
+      border-top: 15px solid transparent;
+      border-right: 20px solid #ffffff;
+      border-bottom: 15px solid transparent;
+      content: "";
+    }
+    .inner2:before {
+      position: absolute;
+      top: 0;
+      bottom: -30px;
+      right: 100%;
+      border-left: 2px dashed #4c35a9;
+      content: "";
+      margin-right: 80px;
+    }
+    
+    .inner2:after {
+      position: absolute;
+      right: 100%;
+      top: 35px;
+      border-top: 15px solid transparent;
+      border-right: 20px solid #ffffff;
+      border-bottom: 15px solid transparent;
+      content: "";
+    }
+    
+    .inner-reverse1:before{
+      position: absolute;
+      top: 0;
+      bottom: -30px;
+      left: calc(100% + 80px);
+      border-left: 2px dashed #40cbb4;
+      content: "";
+      margin-right: 80px;
+    }
+    .inner-reverse1:after{
+      position: absolute;
+      left: 100%;
+      top: 35px;
+      border-top: 15px solid transparent;
+      /*border-right: 20px solid #ffffff;*/
+      border-bottom: 15px solid transparent;
+      border-left: 15px solid #ffffff;
+      content: "";
+    }
+    .inner-reverse2:before{
+
+    }
+    .inner-reverse2:after{
+      position: absolute;
+      left: 100%;
+      top: 35px;
+      border-top: 15px solid transparent;
+      /*border-right: 20px solid #ffffff;*/
+      border-bottom: 15px solid transparent;
+      border-left: 15px solid #ffffff;
+      content: "";
+    }
   </style>
 </head>
 <body>
@@ -57,7 +133,7 @@
     <!--    Select Buttons-->
     <!--      Button 1: 01 Jan-->
     <button class="schedule-button" id="chosed-button" name="day1"
-      style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+            style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
       <span
         style="background-color: #ffc20b; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
         Day 01
@@ -74,7 +150,7 @@
     </button>
     <!--      Button 2: 02 Jan-->
     <button class="schedule-button" name="day2"
-      style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+            style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
       <span
         style="background-color: #40cbb4; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
         Day 02
@@ -91,7 +167,7 @@
     </button>
     <!--      Button 3: 03 Jan-->
     <button class="schedule-button" name="day3"
-      style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+            style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
       <span
         style="background-color: #4c35a9; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
         Day 03
@@ -108,7 +184,7 @@
     </button>
     <!--      Button 4: 04 Jan-->
     <button class="schedule-button" name="day4"
-      style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+            style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
       <span
         style="background-color: #e6275a; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
         Day 04
@@ -124,66 +200,222 @@
       2023
     </button>
     <!--    Schedule Details-->
-    <div>
+    <div id="schedule-details" style="display: flex; flex-direction: column">
+      <!--        Right -->
+      <div style="position: relative; margin-bottom: 30px;">
+        <div style="position: relative; float: right; width: 50%; text-align: left;">
+          <div class="inner1"
+               style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">
+            <div
+              style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #ffc20b; box-shadow: 0 0 30px rgba(0,0,0,0.05);">
+              <div>9.00 AM</div>
+              <div>10.00 AM</div>
+            </div>
+            <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">
+              <!--              Thumbnail-->
+              <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">
+                <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"
+                     alt="schedule-img">
+              </div>
+<!--              Name-->
+              <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">
+                Ashli Scroggy
+              </div>
+<!--              Position-->
+              <div style="font-size: 13px;">
+                Founder & CEO
+              </div>
+<!--              News-->
+              <div>
+                <h4>
+                  <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = '#ffc20b'; this.style.transition=  'color 400ms ease'" onmouseleave="this.style.color = 'black'; this.style.transition=  'color 400ms ease'" href="#">Modern Marketing Summit Sydney 2018</a>
+                </h4>
+                <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?
+                </div>
+                <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = 'transparent'; this.style.color='#ffc20b'; this.style.borderTop = '2px solid #ffc20b'; this.style.borderBottom = '2px solid #ffc20b'; this.style.transition = 'all 300ms ease'" onmouseleave="this.style.backgroundColor = '#ffc20b'; this.style.color='white'; this.style.borderTop = '2px solid transparent'; this.style.borderBottom = '2px solid transparent'; this.style.transition = 'all 300ms ease'">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--      Left-->
+      <div style="position: relative; margin-bottom: 30px; top: 100% ">
+        <div style="position: relative; float: left; width: 50%; text-align: left;">
+          <div class="inner-reverse1"
+               style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">
+            <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">
+              <!--              Thumbnail-->
+              <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">
+                <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"
+                     alt="schedule-img">
+              </div>
+              <!--              Name-->
+              <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">
+                Ashli Scroggy
+              </div>
+              <!--              Position-->
+              <div style="font-size: 13px;">
+                Founder & CEO
+              </div>
+              <!--              News-->
+              <div>
+                <h4>
+                  <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = '#ffc20b'; this.style.transition=  'color 400ms ease'" onmouseleave="this.style.color = 'black'; this.style.transition=  'color 400ms ease'" href="#">Modern Marketing Summit Sydney 2018</a>
+                </h4>
+                <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?
+                </div>
+                <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = 'transparent'; this.style.color='#ffc20b'; this.style.borderTop = '2px solid #ffc20b'; this.style.borderBottom = '2px solid #ffc20b'; this.style.transition = 'all 300ms ease'" onmouseleave="this.style.backgroundColor = '#ffc20b'; this.style.color='white'; this.style.borderTop = '2px solid transparent'; this.style.borderBottom = '2px solid transparent'; this.style.transition = 'all 300ms ease'">
+                  Read More
+                </a>
+              </div>
+            </div>
+            <div
+              style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #40cbb4; box-shadow: 0 0 30px rgba(0,0,0,0.05);">
+              <div>9.00 AM</div>
+              <div>10.00 AM</div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--      Right-->
+      <div style="position: relative; margin-bottom: 30px;">
+        <div style="position: relative; float: right; width: 50%; text-align: left;">
+          <div class="inner2"
+               style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">
+            <div
+              style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #4c35a9; box-shadow: 0 0 30px rgba(0,0,0,0.05);">
+              <div>9.00 AM</div>
+              <div>10.00 AM</div>
+            </div>
+            <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">
+              <!--              Thumbnail-->
+              <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">
+                <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"
+                     alt="schedule-img">
+              </div>
+              <!--              Name-->
+              <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">
+                Ashli Scroggy
+              </div>
+              <!--              Position-->
+              <div style="font-size: 13px;">
+                Founder & CEO
+              </div>
+              <!--              News-->
+              <div>
+                <h4>
+                  <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = '#ffc20b'; this.style.transition=  'color 400ms ease'" onmouseleave="this.style.color = 'black'; this.style.transition=  'color 400ms ease'" href="#">Modern Marketing Summit Sydney 2018</a>
+                </h4>
+                <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?
+                </div>
+                <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = 'transparent'; this.style.color='#ffc20b'; this.style.borderTop = '2px solid #ffc20b'; this.style.borderBottom = '2px solid #ffc20b'; this.style.transition = 'all 300ms ease'" onmouseleave="this.style.backgroundColor = '#ffc20b'; this.style.color='white'; this.style.borderTop = '2px solid transparent'; this.style.borderBottom = '2px solid transparent'; this.style.transition = 'all 300ms ease'">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--      Left-->
+      <div style="position: relative; margin-bottom: 30px; top: 100% ">
+        <div style="position: relative; float: left; width: 50%; text-align: left;">
+          <div class="inner-reverse2"
+               style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">
+            <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">
+              <!--              Thumbnail-->
+              <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">
+                <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"
+                     alt="schedule-img">
+              </div>
+              <!--              Name-->
+              <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">
+                Ashli Scroggy
+              </div>
+              <!--              Position-->
+              <div style="font-size: 13px;">
+                Founder & CEO
+              </div>
+              <!--              News-->
+              <div>
+                <h4>
+                  <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = '#ffc20b'; this.style.transition=  'color 400ms ease'" onmouseleave="this.style.color = 'black'; this.style.transition=  'color 400ms ease'" href="#">Modern Marketing Summit Sydney 2018</a>
+                </h4>
+                <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?
+                </div>
+                <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = 'transparent'; this.style.color='#ffc20b'; this.style.borderTop = '2px solid #ffc20b'; this.style.borderBottom = '2px solid #ffc20b'; this.style.transition = 'all 300ms ease'" onmouseleave="this.style.backgroundColor = '#ffc20b'; this.style.color='white'; this.style.borderTop = '2px solid transparent'; this.style.borderBottom = '2px solid transparent'; this.style.transition = 'all 300ms ease'">
+                  Read More
+                </a>
+              </div>
+            </div>
+            <div
+              style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #e6275a; box-shadow: 0 0 30px rgba(0,0,0,0.05);">
+              <div>9.00 AM</div>
+              <div>10.00 AM</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 <script>
   const buttons = document.getElementsByClassName('schedule-button')
-  for (let element of buttons)
-  {
-    element.addEventListener('click', (event)=>{choseDay(event)});
-    if (element.attributes['id'] !== undefined && element.attributes['id'].value === "chosed-button")
-    {
-      if (element.attributes['name'].value === "day1"){
+  for (let element of buttons) {
+    element.addEventListener('click', (event) => {
+      choseDay(event)
+    });
+    if (element.attributes['id'] !== undefined && element.attributes['id'].value === "chosed-button") {
+      if (element.attributes['name'].value === "day1") {
         element.style.boxShadow = '0px 0px 30px rgba(227, 208, 54, 0.3)'
         element.style.border = '1px solid rgb(255,203,0)'
-      } else if (element.attributes['name'].value === 'day2')
-      {
+      } else if (element.attributes['name'].value === 'day2') {
         element.style.boxShadow = '0 0px 30px rgba(64,203,180,.30)'
         element.style.border = '1px solid rgb(57,219,189)'
-      } else if (element.attributes['name'].value === 'day3')
-      {
+      } else if (element.attributes['name'].value === 'day3') {
         element.style.boxShadow = '0 0px 30px rgba(76,53,169,.30)'
         element.style.border = '1px solid rgb(128,0,255)'
-      } else
-      {
+      } else {
         element.style.boxShadow = '0 0px 30px rgba(230,39,90,.30)'
         element.style.border = '1px solid rgb(255, 0, 0)'
       }
-    }
-    else {
+    } else {
       element.style.boxShadow = 'none'
       element.style.border = '1px solid #dddddd'
     }
   }
-  const choseDay = (event) =>
-  {
+  const choseDay = (event) => {
     const buttons = document.getElementsByClassName('schedule-button')
     
-    for (let element of buttons)
-    {
-      if (element.attributes['id'] === 'chosed-button' ) {element.setAttribute('id','')}
-      if (element === event.target){
-        element.setAttribute('id','chosed-button')
-        if (element.attributes['name'].value === "day1"){
+    for (let element of buttons) {
+      if (element.attributes['id'] === 'chosed-button') {
+        element.setAttribute('id', '')
+      }
+      if (element === event.target) {
+        element.setAttribute('id', 'chosed-button')
+        if (element.attributes['name'].value === "day1") {
           element.style.boxShadow = '0px 0px 30px rgba(227, 208, 54, 0.3)'
           element.style.border = '1px solid rgb(255,203,0)'
-        } else if (element.attributes['name'].value === 'day2')
-        {
+          
+          const scheduleDetails = document.getElementById('schedule-details')
+          // scheduleDetails.innerText = "Hello"
+          
+        } else if (element.attributes['name'].value === 'day2') {
           element.style.boxShadow = '0 0px 30px rgba(64,203,180,.30)'
           element.style.border = '1px solid rgb(57,219,189)'
-        } else if (element.attributes['name'].value === 'day3')
-        {
+        } else if (element.attributes['name'].value === 'day3') {
           element.style.boxShadow = '0 0px 30px rgba(76,53,169,.30)'
           element.style.border = '1px solid rgb(128,0,255)'
-        } else
-        {
+        } else {
           element.style.boxShadow = '0 0px 30px rgba(230,39,90,.30)'
           element.style.border = '1px solid rgb(255, 0, 0)'
         }
-      }
-      else {
+      } else {
         element.style.boxShadow = 'none'
         element.style.border = '1px solid #dddddd'
       }
