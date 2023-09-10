@@ -1,0 +1,73 @@
+
+.list-style-one{
+    position:relative;
+}
+
+.list-style-one li{
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444444;
+    font-weight: 400;
+    padding-left: 35px;
+    margin-bottom: 10px;
+}
+
+.about-section{
+    position: relative;
+    padding: 120px 0 70px;
+}
+
+.about-section .content-column{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.about-section .content-column .btn-box{
+    position: relative;
+}
+
+.about-section .content-column .btn-box a{
+    padding: 15px 30px;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.about-section .image-column{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.about-section .image-column .image-box{
+    position: relative;
+    padding-left: 80px;
+}
+
+.about-section .image-column .image-box img{
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    border: 15px solid #ffffff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.10);
+}
+
+.about-section .image-column .image{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.about-section .image-column .image:before{
+    position: absolute;
+    right: -10%;
+    top: -10%;
+    height: 120%;
+    width: 120%;
+    background-image: url(../images/shape-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;;
+    animation: dizzling 10s infinite;
+    transition: all 300ms ease;
+    content: "";
+}

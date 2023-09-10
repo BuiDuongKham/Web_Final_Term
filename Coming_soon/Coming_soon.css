@@ -1,0 +1,66 @@
+
+.coming-soon-section{
+    position: relative;
+    z-index: 2;
+}
+
+.coming-soon-section .outer-box{
+    position: relative;
+    display: block;
+    padding: 30px 80px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: -72px;
+    background: rgb(247,0,104);
+    background: -moz-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
+    background: -webkit-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
+    background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066',GradientType=1 );
+    box-shadow: 0 0 30px rgba(0,0,0,0.30);
+}
+
+.coming-soon-section .timer-column{
+    position: relative;
+}
+
+.coming-soon-section .time-counter{
+    position:relative;
+}
+
+.coming-soon-section .time-countdown{
+    position:relative;
+}
+
+.coming-soon-section .time-countdown .counter-column{
+    position:relative;
+    display: inline-block;
+    margin:0px 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.coming-soon-section .time-countdown .counter-column:before{
+    position:absolute;
+    content:':';
+    top:10px;
+    right:-50px;
+    font-size:56px;
+    line-height:1em;
+    color:#ffffff;
+}
+
+.coming-soon-section .time-countdown .counter-column:last-child:before{
+    display: none;
+}
+
+.coming-soon-section .time-countdown .counter-column .count{
+    position: relative;
+    display: block;
+    font-size: 60px;
+    line-height: 1em;
+    color: #ffffff;
+    font-weight: 700;
+}

@@ -1,0 +1,49 @@
+
+.slide-item {
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Hiệu ứng chuyển đổi với thời gian 1 giây */
+}
+
+.slide-item:first-child {
+    opacity: 1; /* Hiển thị slide đầu tiên */
+}
+
+div .content-box h2{
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-size: 74px;
+    font-weight: 600;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.banner-carousel .content-box .info-list li{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    margin:0 10px;
+    text-transform: uppercase;
+}
+
+.banner-carousel .content-box .info-list li .icon{
+    color: #faaC1D;
+    margin-right: 10px;
+    float: left;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.banner-carousel .content-box .btn-box{
+    transform: translateY(100px);
+    transition: all 500ms ease;
+}

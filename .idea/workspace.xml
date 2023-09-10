@@ -5,15 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2e2aecf-7262-4f42-88b7-9ce737ef64ed" name="Changes" comment="Header and Banner">
-      <change afterPath="$PROJECT_DIR$/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/About/About.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banner/Banner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coming_soon/Coming_soon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feature/Feature.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feature/Feature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Video/Video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Why_choose/Why_choose.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/refresh_tag.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Header_Banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Banner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Header_Banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Header_Banner.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -48,34 +65,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feat/Header__Banner&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Web_Final_Term/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feat/Header__Banner",
+    "last_opened_file_path": "D:/Web_Final_Term/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Web_Final_Term\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Web_Final_Term\images" />
+      <recent name="D:\Web_Final_Term\Why_choose" />
+      <recent name="D:\Web_Final_Term\Video" />
+      <recent name="D:\Web_Final_Term\Coming_soon" />
+      <recent name="D:\Web_Final_Term\Banner" />
+      <recent name="D:\Web_Final_Term\About" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Header_Banners.html">
+    <configuration name="About.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Final_Term/About/About.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Header_Banner.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Final_Term/Header_Banner.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Header_Banners.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Final_Term/Header_Banners.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Header_Banners.html" />
+        <item itemvalue="JavaScript Debug.About.html" />
         <item itemvalue="JavaScript Debug.Header_Banner.html" />
       </list>
     </recent_temporary>
@@ -90,6 +121,8 @@
       <updated>1693810464877</updated>
       <workItem from="1693810465829" duration="538000" />
       <workItem from="1693811213580" duration="752000" />
+      <workItem from="1694263591377" duration="3308000" />
+      <workItem from="1694315487838" duration="7071000" />
     </task>
     <task id="LOCAL-00001" summary="Header and Banner">
       <option name="closed" value="true" />
