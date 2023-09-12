@@ -1,0 +1,100 @@
+
+.video-section{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0 140px;
+    background-attachment:fixed;
+}
+
+.video-section:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(247,0,104);
+    background: -moz-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
+    background: -webkit-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
+    background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066',GradientType=1 );
+    opacity: .70;
+    content: "";
+}
+
+.video-section .content-box{
+    position: relative;
+    text-align: center;
+}
+
+.video-section .content-box h2{
+    display: block;
+    font-size: 48px;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.video-section .play-now{
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.video-section .play-now .icon{
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    background-color: #ffbc00;
+    padding-left: 0;
+    font-size: 50px;
+}
+
+
+.video-section .play-now{
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.video-section .play-now .icon{
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    background-color: #ffbc00;
+    padding-left: 0;
+    font-size: 50px;
+}
+
+.play-now {
+    position: relative;
+    display: block;
+    z-index: 9;
+    transition: all 300ms ease;
+}
+
+.play-now .icon{
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: #ffffff;
+    z-index: 1;
+    padding-left: 5px;
+    font-size: 24px;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0  0px 10px 0 rgba(255, 255, 255, .3);
+    transform-origin:center;
+}
+@-webkit-keyframes ripple {
+    70% {box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);}
+    100% {box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}
+}
+
+@keyframes ripple {
+    70% {box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);}
+    100% {box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}
+}
