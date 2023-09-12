@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.7em;
+    font-weight: 400;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#fun-fact-section:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./pattern-1.jpg');
+    content: "";
+    opacity: .10;
+}
+
+.fun-fact-div:hover .fun-fact-icon {
+    transform: rotateY(-360deg);
+    transition: transform 600ms ease;
+}
+
+#fun-fact-1 {
+    animation: flyUp 500ms ease;
+}
+
+#fun-fact-2 {
+    animation: flyUp 500ms ease;
+}
+
+#fun-fact-3 {
+    animation: flyUp 500ms ease;
+}
+
+#fun-fact-4 {
+    animation: flyUp 500ms ease;
+}
+
+@keyframes flyUp {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        transition: transform 1s;
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
