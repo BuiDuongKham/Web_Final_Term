@@ -7,8 +7,7 @@
     <list default="true" id="c2e2aecf-7262-4f42-88b7-9ce737ef64ed" name="Changes" comment="update Feature, split Header Banner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final_HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Final_HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/increasing-number.html" beforeDir="false" afterPath="$PROJECT_DIR$/IncreasingNumber/increasing-number.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IncreasingNumber/pattern-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/TimeLine/timeline.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +76,11 @@
       <recent name="D:\Web_Final_Term\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\khamb\Documents\GitHub\Web_Final_Term\TimeLine" />
       <recent name="C:\Users\khamb\Documents\GitHub\Web_Final_Term\IncreasingNumber" />
       <recent name="C:\Users\khamb\Documents\GitHub\Web_Final_Term\Speaker" />
       <recent name="D:\Web_Final_Term\Why_choose" />
       <recent name="D:\Web_Final_Term\Video" />
-      <recent name="D:\Web_Final_Term\Coming_soon" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.About.html">
@@ -119,6 +118,7 @@
       <workItem from="1694483191453" duration="245000" />
       <workItem from="1694508906077" duration="3052000" />
       <workItem from="1694524828067" duration="5597000" />
+      <workItem from="1694530930308" duration="342000" />
     </task>
     <task id="LOCAL-00001" summary="Header and Banner">
       <option name="closed" value="true" />
