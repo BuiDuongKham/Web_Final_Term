@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2e2aecf-7262-4f42-88b7-9ce737ef64ed" name="Changes" comment="update Feature, split Header Banner">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/About/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/About/About.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coming_soon/Coming_soon.css" beforeDir="false" afterPath="$PROJECT_DIR$/Coming_soon/Coming_soon.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Header/Header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Header/Header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feat/Header_Banner" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +62,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feat/Header__Banner&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Web_Final_Term/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -81,7 +84,7 @@
       <recent name="D:\Web_Final_Term\About" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Header_Banners.html">
+  <component name="RunManager" selected="JavaScript Debug.About.html">
     <configuration name="About.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Final_Term/About/About.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -114,6 +117,8 @@
       <workItem from="1694334561986" duration="114000" />
       <workItem from="1694334703934" duration="246000" />
       <workItem from="1694483191453" duration="245000" />
+      <workItem from="1694508906077" duration="3052000" />
+      <workItem from="1694524828067" duration="2950000" />
     </task>
     <task id="LOCAL-00001" summary="Header and Banner">
       <option name="closed" value="true" />
