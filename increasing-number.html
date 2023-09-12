@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+      color: #777777;
+      line-height: 1.7em;
+      font-weight: 400;
+      background: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+    
+    img {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #fun-fact-section:before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-image: url('pattern-1.jpg');
+      content: "";
+      opacity: .10;
+    }
+    
+    .fun-fact-div:hover .fun-fact-icon {
+      transform: rotateY(-360deg);
+      transition: transform 600ms ease;
+    }
+    
+    #fun-fact-1 {
+      animation: flyUp 500ms ease;
+    }
+    
+    #fun-fact-2 {
+      animation: flyUp 500ms ease;
+    }
+    
+    #fun-fact-3 {
+      animation: flyUp 500ms ease;
+    }
+    
+    #fun-fact-4 {
+      animation: flyUp 500ms ease;
+    }
+    
+    @keyframes flyUp {
+      0% {
+        transform: translateY(10px);
+        opacity: 0;
+      }
+      100% {
+        transition: transform 1s;
+        transform: translateY(0px);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+<div id='fun-fact-section' style="position: relative; padding: 100px 0 50px;">
+  <div id="fun-fact-wrapper"
+       style="position:relative;display: grid; grid-auto-flow: column; grid-template-columns: 1fr 1fr 1fr 1fr">
+  </div>
+</div>
+</body>
+<script>
+  let isFunFactVisited = false
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (isFunFactVisited === true) return
+      if (entry.isIntersecting) {
+        isFunFactVisited = true
+        const wrapper = document.getElementById('fun-fact-wrapper')
+        let counter1 = 1;
+        let counter2 = 1;
+        let counter3 = 1;
+        let counter4 = 1;
+        const increCounter1 = () =>
+        {
+          const interval = setInterval(()=>
+          {
+            if (counter1 === 192) clearInterval(interval)
+            counter1 += 1
+            document.getElementById('counter1').innerText = counter1
+          }, 10)
+        }
+        const increCounter2 = () =>
+        {
+          const interval = setInterval(()=>
+          {
+            if (counter2 === 62) clearInterval(interval)
+            counter2 += 1
+            document.getElementById('counter2').innerText = counter2
+          }, 10)
+        }
+        const increCounter3 = () =>
+        {
+          const interval = setInterval(()=>
+          {
+            if (counter3 === 69) clearInterval(interval)
+            counter3 += 1
+            document.getElementById('counter3').innerText = counter3
+          }, 10)
+        }
+        const increCounter4 = () =>
+        {
+          const interval = setInterval(()=>
+          {
+            if (counter4 === 250) clearInterval(interval)
+            counter4 += 1
+            document.getElementById('counter4').innerText = counter4
+          }, 10)
+        }
+        setTimeout(() => {
+          const node = document.createElement('div')
+          node.id = 'fun-fact-1'
+          node.classList.add('fun-fact-div')
+          node.style.display = 'flex';
+          node.style.flexDirection = 'column';
+          node.style.justifyContent = 'center';
+          node.style.alignItems = "center";
+          node.innerHTML = `<div><p style="display: block; background-color: #ffc20b; font-size: 60px; color: white; padding: 20px; border-radius: 50%" class="fa-solid fa-headphones fun-fact-icon"></p></div><div id="counter1" style=" font-size: 60px; line-height: 1em; color: #15212f; text-shadow: 10px 10px 10px rgba(0,0,0,0.10); font-weight: 600; margin-bottom: 10px;"></div><div style="color: #ffc20b;    position: relative; display: block; font-size: 18px; line-height: 22px; font-weight: 700;">Participants</div>`
+          wrapper.appendChild(node)
+          increCounter1()
+        }, 0)
+        setTimeout(() => {
+          const node = document.createElement('div')
+          node.id = 'fun-fact-2'
+          node.classList.add('fun-fact-div')
+          node.style.display = 'flex';
+          node.style.flexDirection = 'column';
+          node.style.justifyContent = 'center';
+          node.style.alignItems = "center";
+          node.innerHTML = '<div><p style="display: block; background-color: #40cbb4; font-size: 60px; color: white; padding: 20px 28px; border-radius: 50%" class="fa-solid fa-bookmark fun-fact-icon"></p></div><div id="counter2" style=" font-size: 60px; line-height: 1em; color: #15212f; text-shadow: 10px 10px 10px rgba(0,0,0,0.10); font-weight: 600; margin-bottom: 10px;"></div><div style="color: #40cbb4;    position: relative; display: block; font-size: 18px; line-height: 22px; font-weight: 700;">Participants</div>'
+          wrapper.appendChild(node)
+          increCounter2()
+        }, 500)
+        setTimeout(() => {
+          const node = document.createElement('div')
+          node.id = 'fun-fact-3'
+          node.classList.add('fun-fact-div')
+          node.style.display = 'flex';
+          node.style.flexDirection = 'column';
+          node.style.justifyContent = 'center';
+          node.style.alignItems = "center";
+          node.innerHTML = '<div><p style="display: block; background-color: #4c35a9; font-size: 60px; color: white; padding: 20px; border-radius: 50%" class="fa-solid fa-thumbs-up fun-fact-icon"></p></div><div id="counter3" style=" font-size: 60px; line-height: 1em; color: #15212f; text-shadow: 10px 10px 10px rgba(0,0,0,0.10); font-weight: 600; margin-bottom: 10px;"></div><div style="color: #4c35a9;    position: relative; display: block; font-size: 18px; line-height: 22px; font-weight: 700;">Participants</div>'
+          wrapper.appendChild(node)
+          increCounter3()
+        }, 1000)
+        setTimeout(() => {
+          const node = document.createElement('div')
+          node.id = 'fun-fact-4'
+          node.classList.add('fun-fact-div')
+          node.style.display = 'flex';
+          node.style.flexDirection = 'column';
+          node.style.justifyContent = 'center';
+          node.style.alignItems = "center";
+          node.innerHTML = '<div><p style="display: block; background-color: #e6275a; font-size: 60px; color: white; padding: 20px 25px; border-radius: 50%" class="fa-solid fa-book fun-fact-icon"></p></div><div id="counter4" style=" font-size: 60px; line-height: 1em; color: #15212f; text-shadow: 10px 10px 10px rgba(0,0,0,0.10); font-weight: 600; margin-bottom: 10px;"></div><div style="color: #e6275a;    position: relative; display: block; font-size: 18px; line-height: 22px; font-weight: 700;">Participants</div>'
+          wrapper.appendChild(node)
+          increCounter4()
+        }, 1500)
+      }
+    })
+  })
+  
+  const funFactSection = document.getElementById('fun-fact-section')
+  observer.observe(funFactSection)
+</script>
+</html>
