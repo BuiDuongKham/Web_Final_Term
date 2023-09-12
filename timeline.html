@@ -1,0 +1,1568 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <title>Document</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+      color: #777777;
+      line-height: 1.7em;
+      font-weight: 400;
+      background: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+    
+    img {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .inner {
+    
+    }
+    
+    .inner1:before {
+      position: absolute;
+      top: 0;
+      bottom: -30px;
+      right: 100%;
+      border-left: 2px dashed #ffc20b;
+      content: "";
+      margin-right: 80px;
+    }
+    
+    .inner1:after {
+      position: absolute;
+      right: 100%;
+      top: 35px;
+      border-top: 15px solid transparent;
+      border-right: 20px solid #ffffff;
+      border-bottom: 15px solid transparent;
+      content: "";
+    }
+    .inner2:before {
+      position: absolute;
+      top: 0;
+      bottom: -30px;
+      right: 100%;
+      border-left: 2px dashed #4c35a9;
+      content: "";
+      margin-right: 80px;
+    }
+    
+    .inner2:after {
+      position: absolute;
+      right: 100%;
+      top: 35px;
+      border-top: 15px solid transparent;
+      border-right: 20px solid #ffffff;
+      border-bottom: 15px solid transparent;
+      content: "";
+    }
+    
+    .inner-reverse1:before{
+      position: absolute;
+      top: 0;
+      bottom: -30px;
+      left: calc(100% + 80px);
+      border-left: 2px dashed #40cbb4;
+      content: "";
+      margin-right: 80px;
+    }
+    .inner-reverse1:after{
+      position: absolute;
+      left: 100%;
+      top: 35px;
+      border-top: 15px solid transparent;
+      /*border-right: 20px solid #ffffff;*/
+      border-bottom: 15px solid transparent;
+      border-left: 15px solid #ffffff;
+      content: "";
+    }
+    .inner-reverse2:before{
+
+    }
+    .inner-reverse2:after{
+      position: absolute;
+      left: 100%;
+      top: 35px;
+      border-top: 15px solid transparent;
+      /*border-right: 20px solid #ffffff;*/
+      border-bottom: 15px solid transparent;
+      border-left: 15px solid #ffffff;
+      content: "";
+    }
+  </style>
+</head>
+<body>
+<section style="background-color: #fafafa;">
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+    <div
+      style="text-transform: uppercase;font-size: 16px; font-weight: 500;letter-spacing: 5px;font-family: 'Poppins', sans-serif; color: #ec167f">
+      ABOUT CONFERENCE
+    </div>
+    <div style="font-size: 48px;line-height: 1.2em;font-weight: 700;color: #1e1f36;">
+      Schedule Plan
+    </div>
+  </div>
+  <div>
+    <!--    Select Buttons-->
+    <div style="display: flex; justify-content: center; align-items: center">
+      <!--      Button 1: 01 Jan-->
+      <button class="schedule-button" id="chosed-button" name="day1"
+              style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+      <span
+        style="background-color: #ffc20b; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
+        Day 01
+      </span>
+        <span
+          style="color: #ffc20b; position: absolute; left: -0; top: 80px; width: 100px; text-align: center; font-size: 38px; line-height: 20px; font-weight: 600 ">
+        01
+      </span>
+        <span
+          style="color: #ffc20b; display: block; font-size: 20px; line-height: 1em; font-weight: 600; text-transform: uppercase;">
+       Jan
+      </span>
+        2023
+      </button>
+      <!--      Button 2: 02 Jan-->
+      <button class="schedule-button" name="day2"
+              style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+      <span
+        style="background-color: #40cbb4; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
+        Day 02
+      </span>
+        <span
+          style="color: #40cbb4; position: absolute; left: -0; top: 80px; width: 100px; text-align: center; font-size: 38px; line-height: 20px; font-weight: 600 ">
+        02
+      </span>
+        <span
+          style="color: #40cbb4; display: block; font-size: 20px; line-height: 1em; font-weight: 600; text-transform: uppercase;">
+       Jan
+      </span>
+        2023
+      </button>
+      <!--      Button 3: 03 Jan-->
+      <button class="schedule-button" name="day3"
+              style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+      <span
+        style="background-color: #4c35a9; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
+        Day 03
+      </span>
+        <span
+          style="color: #4c35a9; position: absolute; left: -0; top: 80px; width: 100px; text-align: center; font-size: 38px; line-height: 20px; font-weight: 600 ">
+        03
+      </span>
+        <span
+          style="color: #4c35a9; display: block; font-size: 20px; line-height: 1em; font-weight: 600; text-transform: uppercase;">
+       Jan
+      </span>
+        2023
+      </button>
+      <!--      Button 4: 04 Jan-->
+      <button class="schedule-button" name="day4"
+              style="position: relative; display: inline-block; height: 135px; width: 160px; border-radius: 20px; background-color: #ffffff; font-size: 16px; line-height: 20px; color: #222222; font-weight: 600; text-align: left; padding: 70px 15px 15px 90px;cursor: pointer; margin: 0 15px 20px; border: 1px solid #dddddd; transition: all 300ms ease;">
+      <span
+        style="background-color: #e6275a; position: absolute; left: 0; top: 30px; padding: 5px 20px; font-size: 14px; line-height: 20px; font-weight: 600; color: #ffffff; border-radius: 0 15px 15px 0;">
+        Day 04
+      </span>
+        <span
+          style="color: #e6275a; position: absolute; left: -0; top: 80px; width: 100px; text-align: center; font-size: 38px; line-height: 20px; font-weight: 600 ">
+        04
+      </span>
+        <span
+          style="color: #e6275a; display: block; font-size: 20px; line-height: 1em; font-weight: 600; text-transform: uppercase;">
+       Jan
+      </span>
+        2023
+      </button>
+    </div>
+    <!--    Schedule Details-->
+    <div id="schedule-details">
+    </div>
+  </div>
+</section>
+<script>
+  const buttons = document.getElementsByClassName('schedule-button')
+  for (let element of buttons) {
+    element.addEventListener('click', (event) => {
+      choseDay(event)
+    });
+    if (element.attributes['id'] !== undefined && element.attributes['id'].value === "chosed-button") {
+      if (element.attributes['name'].value === "day1") {
+        element.style.boxShadow = '0px 0px 30px rgba(227, 208, 54, 0.3)'
+        element.style.border = '1px solid rgb(255,203,0)'
+        const scheduleDetails = document.getElementById('schedule-details')
+        scheduleDetails.innerHTML ='<div style="display: flex; flex-direction: column">\n' +
+          '        <!--        Right -->\n' +
+          '        <div style="position: relative; margin-bottom: 30px;">\n' +
+          '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+          '            <div class="inner1"\n' +
+          '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #ffc20b; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#ffc20b\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#ffc20b\'; this.style.borderTop = \'2px solid #ffc20b\'; this.style.borderBottom = \'2px solid #ffc20b\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#ffc20b\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Left-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+          '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+          '            <div class="inner-reverse1"\n' +
+          '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+          '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#40cbb4\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #40cbb4; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#40cbb4\'; this.style.borderTop = \'2px solid #40cbb4\'; this.style.borderBottom = \'2px solid #40cbb4\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#40cbb4\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #40cbb4; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Right-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px;">\n' +
+          '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+          '            <div class="inner2"\n' +
+          '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #4c35a9; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#4c35a9\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #4c35a9; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#4c35a9\'; this.style.borderTop = \'2px solid #4c35a9\'; this.style.borderBottom = \'2px solid #4c35a9\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#4c35a9\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Left-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+          '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+          '            <div class="inner-reverse2"\n' +
+          '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+          '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#e6275a\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #e6275a; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#e6275a\'; this.style.borderTop = \'2px solid #e6275a\'; this.style.borderBottom = \'2px solid #e6275a\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#e6275a\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #e6275a; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '      </div>'
+      } else if (element.attributes['name'].value === 'day2') {
+        element.style.boxShadow = '0 0px 30px rgba(64,203,180,.30)'
+        element.style.border = '1px solid rgb(57,219,189)'
+        const scheduleDetails = document.getElementById('schedule-details')
+        scheduleDetails.innerHTML ='<div style="display: flex; flex-direction: column">\n' +
+          '        <!--        Right -->\n' +
+          '        <div style="position: relative; margin-bottom: 30px;">\n' +
+          '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+          '            <div class="inner1"\n' +
+          '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #ffc20b; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#ffc20b\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#ffc20b\'; this.style.borderTop = \'2px solid #ffc20b\'; this.style.borderBottom = \'2px solid #ffc20b\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#ffc20b\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Left-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+          '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+          '            <div class="inner-reverse1"\n' +
+          '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+          '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#40cbb4\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #40cbb4; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#40cbb4\'; this.style.borderTop = \'2px solid #40cbb4\'; this.style.borderBottom = \'2px solid #40cbb4\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#40cbb4\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #40cbb4; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Right-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px;">\n' +
+          '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+          '            <div class="inner2"\n' +
+          '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #4c35a9; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#4c35a9\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #4c35a9; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#4c35a9\'; this.style.borderTop = \'2px solid #4c35a9\'; this.style.borderBottom = \'2px solid #4c35a9\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#4c35a9\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Left-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+          '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+          '            <div class="inner-reverse2"\n' +
+          '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+          '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#e6275a\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #e6275a; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#e6275a\'; this.style.borderTop = \'2px solid #e6275a\'; this.style.borderBottom = \'2px solid #e6275a\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#e6275a\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #e6275a; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '      </div>'
+      } else if (element.attributes['name'].value === 'day3') {
+        element.style.boxShadow = '0 0px 30px rgba(76,53,169,.30)'
+        element.style.border = '1px solid rgb(128,0,255)'
+        const scheduleDetails = document.getElementById('schedule-details')
+        scheduleDetails.innerHTML ='<div style="display: flex; flex-direction: column">\n' +
+          '        <!--        Right -->\n' +
+          '        <div style="position: relative; margin-bottom: 30px;">\n' +
+          '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+          '            <div class="inner1"\n' +
+          '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #ffc20b; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#ffc20b\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#ffc20b\'; this.style.borderTop = \'2px solid #ffc20b\'; this.style.borderBottom = \'2px solid #ffc20b\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#ffc20b\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Left-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+          '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+          '            <div class="inner-reverse1"\n' +
+          '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+          '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#40cbb4\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #40cbb4; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#40cbb4\'; this.style.borderTop = \'2px solid #40cbb4\'; this.style.borderBottom = \'2px solid #40cbb4\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#40cbb4\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #40cbb4; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Right-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px;">\n' +
+          '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+          '            <div class="inner2"\n' +
+          '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #4c35a9; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#4c35a9\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #4c35a9; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#4c35a9\'; this.style.borderTop = \'2px solid #4c35a9\'; this.style.borderBottom = \'2px solid #4c35a9\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#4c35a9\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Left-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+          '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+          '            <div class="inner-reverse2"\n' +
+          '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+          '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#e6275a\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #e6275a; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#e6275a\'; this.style.borderTop = \'2px solid #e6275a\'; this.style.borderBottom = \'2px solid #e6275a\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#e6275a\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #e6275a; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '      </div>'
+      } else {
+        element.style.boxShadow = '0 0px 30px rgba(230,39,90,.30)'
+        element.style.border = '1px solid rgb(255, 0, 0)'
+        const scheduleDetails = document.getElementById('schedule-details')
+        scheduleDetails.innerHTML ='<div style="display: flex; flex-direction: column">\n' +
+          '        <!--        Right -->\n' +
+          '        <div style="position: relative; margin-bottom: 30px;">\n' +
+          '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+          '            <div class="inner1"\n' +
+          '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #ffc20b; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>6.50 AM</div>\n' +
+          '                <div>9.53 AM</div>\n' +
+          '              </div>\n' +
+          '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#ffc20b\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#ffc20b\'; this.style.borderTop = \'2px solid #ffc20b\'; this.style.borderBottom = \'2px solid #ffc20b\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#ffc20b\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Left-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+          '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+          '            <div class="inner-reverse1"\n' +
+          '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+          '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#40cbb4\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #40cbb4; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#40cbb4\'; this.style.borderTop = \'2px solid #40cbb4\'; this.style.borderBottom = \'2px solid #40cbb4\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#40cbb4\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #40cbb4; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Right-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px;">\n' +
+          '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+          '            <div class="inner2"\n' +
+          '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #4c35a9; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#4c35a9\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #4c35a9; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#4c35a9\'; this.style.borderTop = \'2px solid #4c35a9\'; this.style.borderBottom = \'2px solid #4c35a9\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#4c35a9\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '        <!--      Left-->\n' +
+          '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+          '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+          '            <div class="inner-reverse2"\n' +
+          '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+          '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+          '                <!--              Thumbnail-->\n' +
+          '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+          '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+          '                       alt="schedule-img">\n' +
+          '                </div>\n' +
+          '                <!--              Name-->\n' +
+          '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+          '                  Ashli Scroggy\n' +
+          '                </div>\n' +
+          '                <!--              Position-->\n' +
+          '                <div style="font-size: 13px;">\n' +
+          '                  Founder & CEO\n' +
+          '                </div>\n' +
+          '                <!--              News-->\n' +
+          '                <div>\n' +
+          '                  <h4>\n' +
+          '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#e6275a\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+          '                  </h4>\n' +
+          '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+          '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+          '                  </div>\n' +
+          '                  <a href="#" style="display: inline-block; background-color: #e6275a; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#e6275a\'; this.style.borderTop = \'2px solid #e6275a\'; this.style.borderBottom = \'2px solid #e6275a\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#e6275a\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+          '                    Read More\n' +
+          '                  </a>\n' +
+          '                </div>\n' +
+          '              </div>\n' +
+          '              <div\n' +
+          '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #e6275a; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+          '                <div>9.00 AM</div>\n' +
+          '                <div>10.00 AM</div>\n' +
+          '              </div>\n' +
+          '            </div>\n' +
+          '          </div>\n' +
+          '        </div>\n' +
+          '      </div>'
+      }
+    } else {
+      element.style.boxShadow = 'none'
+      element.style.border = '1px solid #dddddd'
+    }
+  }
+  const choseDay = (event) => {
+    const buttons = document.getElementsByClassName('schedule-button')
+    
+    for (let element of buttons) {
+      if (element.attributes['id'] === 'chosed-button') {
+        element.setAttribute('id', '')
+      }
+      if (element === event.target) {
+        element.setAttribute('id', 'chosed-button')
+        if (element.attributes['name'].value === "day1") {
+          element.style.boxShadow = '0px 0px 30px rgba(227, 208, 54, 0.3)'
+          element.style.border = '1px solid rgb(255,203,0)'
+          const scheduleDetails = document.getElementById('schedule-details')
+          scheduleDetails.innerHTML ='<div style="display: flex; flex-direction: column">\n' +
+            '        <!--        Right -->\n' +
+            '        <div style="position: relative; margin-bottom: 30px;">\n' +
+            '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+            '            <div class="inner1"\n' +
+            '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #ffc20b; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#ffc20b\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#ffc20b\'; this.style.borderTop = \'2px solid #ffc20b\'; this.style.borderBottom = \'2px solid #ffc20b\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#ffc20b\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Left-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+            '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+            '            <div class="inner-reverse1"\n' +
+            '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+            '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#40cbb4\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #40cbb4; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#40cbb4\'; this.style.borderTop = \'2px solid #40cbb4\'; this.style.borderBottom = \'2px solid #40cbb4\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#40cbb4\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #40cbb4; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Right-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px;">\n' +
+            '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+            '            <div class="inner2"\n' +
+            '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #4c35a9; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#4c35a9\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #4c35a9; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#4c35a9\'; this.style.borderTop = \'2px solid #4c35a9\'; this.style.borderBottom = \'2px solid #4c35a9\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#4c35a9\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Left-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+            '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+            '            <div class="inner-reverse2"\n' +
+            '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+            '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#e6275a\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #e6275a; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#e6275a\'; this.style.borderTop = \'2px solid #e6275a\'; this.style.borderBottom = \'2px solid #e6275a\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#e6275a\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #e6275a; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '      </div>'
+        } else if (element.attributes['name'].value === 'day2') {
+          element.style.boxShadow = '0 0px 30px rgba(64,203,180,.30)'
+          element.style.border = '1px solid rgb(57,219,189)'
+          const scheduleDetails = document.getElementById('schedule-details')
+          scheduleDetails.innerHTML ='<div style="display: flex; flex-direction: column">\n' +
+            '        <!--        Right -->\n' +
+            '        <div style="position: relative; margin-bottom: 30px;">\n' +
+            '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+            '            <div class="inner1"\n' +
+            '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #ffc20b; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#ffc20b\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#ffc20b\'; this.style.borderTop = \'2px solid #ffc20b\'; this.style.borderBottom = \'2px solid #ffc20b\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#ffc20b\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Left-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+            '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+            '            <div class="inner-reverse1"\n' +
+            '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+            '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#40cbb4\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #40cbb4; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#40cbb4\'; this.style.borderTop = \'2px solid #40cbb4\'; this.style.borderBottom = \'2px solid #40cbb4\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#40cbb4\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #40cbb4; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Right-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px;">\n' +
+            '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+            '            <div class="inner2"\n' +
+            '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #4c35a9; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#4c35a9\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #4c35a9; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#4c35a9\'; this.style.borderTop = \'2px solid #4c35a9\'; this.style.borderBottom = \'2px solid #4c35a9\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#4c35a9\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Left-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+            '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+            '            <div class="inner-reverse2"\n' +
+            '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+            '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#e6275a\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #e6275a; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#e6275a\'; this.style.borderTop = \'2px solid #e6275a\'; this.style.borderBottom = \'2px solid #e6275a\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#e6275a\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #e6275a; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '      </div>'
+        } else if (element.attributes['name'].value === 'day3') {
+          element.style.boxShadow = '0 0px 30px rgba(76,53,169,.30)'
+          element.style.border = '1px solid rgb(128,0,255)'
+          const scheduleDetails = document.getElementById('schedule-details')
+          scheduleDetails.innerHTML ='<div style="display: flex; flex-direction: column">\n' +
+            '        <!--        Right -->\n' +
+            '        <div style="position: relative; margin-bottom: 30px;">\n' +
+            '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+            '            <div class="inner1"\n' +
+            '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #ffc20b; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.53 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#ffc20b\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#ffc20b\'; this.style.borderTop = \'2px solid #ffc20b\'; this.style.borderBottom = \'2px solid #ffc20b\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#ffc20b\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Left-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+            '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+            '            <div class="inner-reverse1"\n' +
+            '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+            '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#40cbb4\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #40cbb4; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#40cbb4\'; this.style.borderTop = \'2px solid #40cbb4\'; this.style.borderBottom = \'2px solid #40cbb4\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#40cbb4\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #40cbb4; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Right-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px;">\n' +
+            '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+            '            <div class="inner2"\n' +
+            '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #4c35a9; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#4c35a9\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #4c35a9; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#4c35a9\'; this.style.borderTop = \'2px solid #4c35a9\'; this.style.borderBottom = \'2px solid #4c35a9\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#4c35a9\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Left-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+            '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+            '            <div class="inner-reverse2"\n' +
+            '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+            '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#e6275a\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #e6275a; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#e6275a\'; this.style.borderTop = \'2px solid #e6275a\'; this.style.borderBottom = \'2px solid #e6275a\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#e6275a\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #e6275a; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '      </div>'
+        } else {
+          element.style.boxShadow = '0 0px 30px rgba(230,39,90,.30)'
+          element.style.border = '1px solid rgb(255, 0, 0)'
+          const scheduleDetails = document.getElementById('schedule-details')
+          scheduleDetails.innerHTML ='<div style="display: flex; flex-direction: column">\n' +
+            '        <!--        Right -->\n' +
+            '        <div style="position: relative; margin-bottom: 30px;">\n' +
+            '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+            '            <div class="inner1"\n' +
+            '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #ffc20b; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>6.50  AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#ffc20b\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #ffc20b; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#ffc20b\'; this.style.borderTop = \'2px solid #ffc20b\'; this.style.borderBottom = \'2px solid #ffc20b\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#ffc20b\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Left-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+            '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+            '            <div class="inner-reverse1"\n' +
+            '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+            '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#40cbb4\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #40cbb4; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#40cbb4\'; this.style.borderTop = \'2px solid #40cbb4\'; this.style.borderBottom = \'2px solid #40cbb4\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#40cbb4\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #40cbb4; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Right-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px;">\n' +
+            '          <div style="position: relative; float: right; width: 50%; text-align: left;">\n' +
+            '            <div class="inner2"\n' +
+            '                 style="position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 80px; border-radius: 20px;">\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: -132px; width: 100px; top: 0px; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #4c35a9; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '              <div style="position: relative; padding-left: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; left: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#4c35a9\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #4c35a9; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#4c35a9\'; this.style.borderTop = \'2px solid #4c35a9\'; this.style.borderBottom = \'2px solid #4c35a9\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#4c35a9\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '        <!--      Left-->\n' +
+            '        <div style="position: relative; margin-bottom: 30px; top: 100% ">\n' +
+            '          <div style="position: relative; float: left; width: 50%; text-align: right;">\n' +
+            '            <div class="inner-reverse2"\n' +
+            '                 style="display: flex; flex-direction: row-reverse; position: relative; padding: 20px 30px 20px; background-color: #ffffff; border: 1px solid #dddddd; box-shadow: 0 0 30px rgba(0,0,0,0.05); margin-left: 0;margin-right: 80px; border-radius: 20px;">\n' +
+            '              <div style="position: relative; padding-right: 80px; padding-top: 10px; min-height: 60px;">\n' +
+            '                <!--              Thumbnail-->\n' +
+            '                <div style="position: absolute; right: 0; top: 0; width: 60px; border-radius: 50%; overflow: hidden;">\n' +
+            '                  <img style="width: 100%; aspect-ratio: 1/1; object-fit: cover" src="speaker-background.jpg"\n' +
+            '                       alt="schedule-img">\n' +
+            '                </div>\n' +
+            '                <!--              Name-->\n' +
+            '                <div style="font-size: 16px; color: #212639; font-weight: 500; line-height: 1.2em;">\n' +
+            '                  Ashli Scroggy\n' +
+            '                </div>\n' +
+            '                <!--              Position-->\n' +
+            '                <div style="font-size: 13px;">\n' +
+            '                  Founder & CEO\n' +
+            '                </div>\n' +
+            '                <!--              News-->\n' +
+            '                <div>\n' +
+            '                  <h4>\n' +
+            '                    <a style="position: relative; font-size: 22px; line-height: 1.2em; color: #0f1925; font-weight: 600; margin-bottom: 15px; padding-top: 15px;" onmouseover="this.style.color = \'#e6275a\'; this.style.transition=  \'color 400ms ease\'" onmouseleave="this.style.color = \'black\'; this.style.transition=  \'color 400ms ease\'" href="#">Modern Marketing Summit Sydney 2018</a>\n' +
+            '                  </h4>\n' +
+            '                  <div style="position: relative; font-size: 16px; line-height: 26px; color: #888888; margin-bottom: 15px;">\n' +
+            '                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus alias aliquam aut beatae earum eius, fugiat incidunt laboriosam obcaecati optio provident, qui quibusdam quo quos rerum similique sit tenetur?\n' +
+            '                  </div>\n' +
+            '                  <a href="#" style="display: inline-block; background-color: #e6275a; padding: 10px 20px; line-height: 20px; font-size: 14px; color: #ffffff; border-top: 2px solid transparent; border-bottom: 2px solid transparent; border-radius: 5px" onmouseover="this.style.backgroundColor = \'transparent\'; this.style.color=\'#e6275a\'; this.style.borderTop = \'2px solid #e6275a\'; this.style.borderBottom = \'2px solid #e6275a\'; this.style.transition = \'all 300ms ease\'" onmouseleave="this.style.backgroundColor = \'#e6275a\'; this.style.color=\'white\'; this.style.borderTop = \'2px solid transparent\'; this.style.borderBottom = \'2px solid transparent\'; this.style.transition = \'all 300ms ease\'">\n' +
+            '                    Read More\n' +
+            '                  </a>\n' +
+            '                </div>\n' +
+            '              </div>\n' +
+            '              <div\n' +
+            '                style="position: absolute; left: 581px; width: 100px; top: 0; height: 100px; background-color: #ffffff; text-align: center; font-size: 14px; line-height: 18px; color: #212639; font-weight: 500; padding: 30px 15px 0; border-radius: 50%; border: 2px dashed #e6275a; box-shadow: 0 0 30px rgba(0,0,0,0.05);">\n' +
+            '                <div>9.00 AM</div>\n' +
+            '                <div>10.00 AM</div>\n' +
+            '              </div>\n' +
+            '            </div>\n' +
+            '          </div>\n' +
+            '        </div>\n' +
+            '      </div>'
+        }
+      } else {
+        element.style.boxShadow = 'none'
+        element.style.border = '1px solid #dddddd'
+      }
+    }
+  }
+</script>
+</body>
+</html>
