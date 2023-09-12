@@ -7,7 +7,7 @@
     <list default="true" id="c2e2aecf-7262-4f42-88b7-9ce737ef64ed" name="Changes" comment="update Feature, split Header Banner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final_HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Final_HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/TimeLine/timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Speaker/timeline.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,7 @@
       <workItem from="1694483191453" duration="245000" />
       <workItem from="1694508906077" duration="3052000" />
       <workItem from="1694524828067" duration="5597000" />
-      <workItem from="1694530930308" duration="342000" />
+      <workItem from="1694530930308" duration="6335000" />
     </task>
     <task id="LOCAL-00001" summary="Header and Banner">
       <option name="closed" value="true" />
