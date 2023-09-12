@@ -1,0 +1,145 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.7em;
+    font-weight: 400;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.hover {
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0;
+    transform: translateY(5px);
+}
+
+.hoverable{
+    box-shadow: 0 30px 30px rgba(0,0,0,0.40);
+    transition: all 300ms ease;
+}
+.hoverable:hover{
+    box-shadow: none;
+    transition: all 300ms ease;
+}
+.hoverable:hover .name {
+    transform: translateY(-5px);
+    opacity: 1;
+    transition: all 0.2s 0.4s linear;
+}
+
+.designation {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    opacity: 0;
+    transform: translateY(5px);
+}
+
+.hoverable:hover .designation {
+    transform: translateY(-5px);
+    opacity: 1;
+    transition: all 0.2s 0.6s linear;
+}
+
+.platforms {
+    opacity: 0;
+    transform: translateY(5px);
+}
+
+.hoverable:hover .platforms {
+    transform: translateY(-5px);
+    opacity: 1;
+    transition: all 0.2s 0.6s linear;
+}
+
+.hoverable:hover .hover {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+
+}
+
+.inner-image {
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+
+.fb-speaker a {
+    color: #007bff;
+    background: white;
+    transition: all 0.4s ease;
+}
+
+.fb-speaker:hover a {
+    background: #3C599F;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+
+.twitter-speaker a {
+    background: white;
+    color: #32CCFE;
+    transition: all 0.4s ease;
+}
+
+.twitter-speaker:hover a {
+    background: #32CCFE;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.printerest-speaker a {
+    background: white;
+    color: #f20487;
+    transition: all 0.4s ease;
+}
+
+.printerest-speaker:hover a {
+    background: #CC2127;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.basketball-speaker a {
+    background: white;
+    color: #F46899;
+    transition: all 0.4s ease;
+}
+
+.basketball-speaker:hover a {
+    background: #ec167f;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.hoverable:hover .inner-image {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}

@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2e2aecf-7262-4f42-88b7-9ce737ef64ed" name="Changes" comment="update Feature, split Header Banner">
+      <change beforePath="$PROJECT_DIR$/.idea/Web_Final_Term.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Web_Final_Term.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/About/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/About/About.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coming_soon/Coming_soon.css" beforeDir="false" afterPath="$PROJECT_DIR$/Coming_soon/Coming_soon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Header/Header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Header/Header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Final_HTML.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speaker.html" beforeDir="false" afterPath="$PROJECT_DIR$/Speaker/speaker.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +77,11 @@
       <recent name="D:\Web_Final_Term\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\khamb\Documents\GitHub\Web_Final_Term\Speaker" />
       <recent name="D:\Web_Final_Term\Why_choose" />
       <recent name="D:\Web_Final_Term\Video" />
       <recent name="D:\Web_Final_Term\Coming_soon" />
       <recent name="D:\Web_Final_Term\Banner" />
-      <recent name="D:\Web_Final_Term\About" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.About.html">
@@ -118,7 +118,7 @@
       <workItem from="1694334703934" duration="246000" />
       <workItem from="1694483191453" duration="245000" />
       <workItem from="1694508906077" duration="3052000" />
-      <workItem from="1694524828067" duration="2950000" />
+      <workItem from="1694524828067" duration="4577000" />
     </task>
     <task id="LOCAL-00001" summary="Header and Banner">
       <option name="closed" value="true" />
