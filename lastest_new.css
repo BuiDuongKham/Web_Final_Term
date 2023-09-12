@@ -1,0 +1,104 @@
+.lastest_new{
+    padding: 110px 0 80px;
+}
+
+.blue_circle_wrapper{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    height: 300px;
+}
+
+.blue_circle{
+    position: absolute;
+    display: block;
+    right: -150px;
+    bottom: -200px;
+    width: 300px;
+    height: 100%;
+    background-image: url(https://expert-themes.com/html/eventrox/images/icons/circle-blue.png);
+    z-index: -1;
+}
+
+.red_line{
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    height: 73px;
+    width: 70px;
+    background-image: url(	https://expert-themes.com/html/eventrox/images/icons/twist-line-3.png);
+    z-index: -1;
+}
+
+.purple_line{
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    height: 73px;
+    width: 70px;
+    background-image: url(https://expert-themes.com/html/eventrox/images/icons/twist-line-2.png);
+    z-index: -1;
+}
+
+.blue_line{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    height: 70px;
+    width: 70px;
+    background-image: url(	https://expert-themes.com/html/eventrox/images/icons/twist-line-1.png);
+    z-index: -1;
+}
+
+.blogs{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1em;
+    letter-spacing: 5px;
+    color: #a30767;
+    font-weight: 600;
+}
+
+.big_title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.2em;
+    color: #1e1f36;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.news{
+    align-content: center;
+}
+
+.small_content{
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    font-weight: 400;
+}
+
+.small_content span{
+    color: #1d95d2;
+    padding: 5px 5px 0 0;
+}
+
+.small_content div{
+    width: auto;
+    margin-right: 10px;
+}
+
+.lastest_new_title{
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+.lastest_new_title a{
+    color: #222222;
+}
+
+.lastest_new_title a:hover{
+    color: #f20487;
+}
