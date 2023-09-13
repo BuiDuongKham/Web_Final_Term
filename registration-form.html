@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+      color: #777777;
+      line-height: 1.7em;
+      font-weight: 400;
+      background: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+    img {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+    input:focus,textarea:focus
+    {
+      outline: none;
+    }
+    ::placeholder{
+      font-family: Poppins,'sans-serif';
+    }
+    @keyframes zoomIn {
+      0%{
+        transform: scale(0.1);
+      }
+      100%{
+        transform: scale(1);
+      }
+    }
+    #register-button-background{
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 1s ease;
+    }
+    #register-button:hover #register-button-background{
+      transform: scaleX(1);
+      transform-origin: left;
+      transition: transform 1s ease;
+    }
+    #register-button:hover #register-button-inner-text{
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div id="circle-spanning-wrapper" style="position: relative; padding: 130px 0 130px;background-color: #fafafa">
+    <div style="position: static; max-width: 1200px; padding: 0 15px; margin: 0 auto;">
+      <div id= "circle-spanning-area" style="max-width: 100%; position: absolute; left: 0; top: 0; right: 0; height: 100%; width: 100%; margin: 0 auto;">
+      </div>
+      <div style="position: relative; box-shadow: 0 30px 50px rgba(0,0,0,0.10); background-color: #ffffff;">
+        <div style="margin-right: 0; margin-left: 0;">
+          <div style="display: grid; grid-auto-flow: column; grid-template-columns: 2fr 4fr">
+            <div style="background: url('rocket.png'); padding: 80px 50px 20px; width: 100%">
+              <div style="display: flex; justify-content: center; align-items: center;">
+                <i style="display: flex;justify-content: center; align-items: center; height: 150px; width: 150px; background: white; border-radius: 50%; font-size: 80px" class="fa-solid fa-rocket"></i>
+              </div>
+              <div style="display: flex; justify-content: center; font-size: 34px; color: #ffffff; margin-top: 30px; font-weight: 700; margin-right: 0; margin-left: 0; padding-right: 0; padding-left: 0">
+                REGISTER NOW
+              </div>
+              <div style="display: flex; justify-content: center; align-items: center; font-size: 16px; line-height: 26px; color: #ffffff;">
+                <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie.</p>
+              </div>
+            </div>
+            <div style="position: relative; padding: 50px 30px 30px; background-color: #ffffff;">
+              <form>
+                <div style="margin-bottom: 20px; position:relative;">
+                  <label style="display: none" for="name">Hello</label>
+                  <i style="position:absolute; top:18px; left:10px; font-size: 16px" class="fa-solid fa-user"></i>
+                  <input type="text" style="border: 1px solid gray; width: 100%; height: 52px; line-height: 33px; padding: 10px 20px 10px 50px;" id="name" name="name" onfocus="this.style.border = '1px solid red'" onblur="this.style.border = '1px solid gray'" placeholder="Full Name">
+                </div>
+                <div style="margin-bottom: 20px; position:relative;">
+                  <label style="display: none" for="mail">Hello</label>
+                  <i style="position:absolute; top:18px; left:10px; font-size: 16px" class="fa-regular fa-envelope"></i>
+                  <input type="text" style="border: 1px solid gray; width: 100%; height: 52px; line-height: 33px; padding: 10px 20px 10px 50px;" id="mail" name="mail" onfocus="this.style.border = '1px solid red'" onblur="this.style.border = '1px solid gray'" placeholder="Email">
+                </div>
+                <div style="margin-bottom: 20px; position:relative;">
+                  <label style="display: none" for="phone">Hello</label>
+                  <i style="position:absolute; top:18px; left:10px; font-size: 16px" class="fa-solid fa-phone"></i>
+                  <input type="text" style="border: 1px solid gray; width: 100%; height: 52px; line-height: 33px; padding: 10px 20px 10px 50px;" id="phone" name="phone" onfocus="this.style.border = '1px solid red'" onblur="this.style.border = '1px solid gray'" placeholder="Phone">
+                </div>
+                <div style="margin-bottom: 20px; position:relative;">
+                  <label style="display: none" for="message">Hello</label>
+                  <i style="position:absolute; top:18px; left:10px; font-size: 16px" class="fa-regular fa-comments"></i>
+                  <textarea style="border: 1px solid gray; width: 100%; padding: 10px 20px 10px 50px;" id="message" name="message" onfocus="this.style.border = '1px solid red'" onblur="this.style.border = '1px solid gray'" placeholder="Message"></textarea>
+                </div>
+                <div style="display: flex; justify-content: end">
+                  <button id="register-button" type="submit" style="display: block; padding: 0; position: relative;cursor: pointer; line-height: 25px; font-size: 14px; background: #24293d; color: white; width: 100px; height: 40px; border-radius: 10px">
+                    <span id="register-button-background" style="display: block; width: 100%; height: 100%;position: absolute; top: 0; right: 0;  background: #ffffff;border-radius: 8px; z-index: 1">
+                    </span>
+                    <span id="register-button-inner-text" style=" position:absolute; width: 100%; height: 100%; z-index: 9; top:0; right:0; padding: 5px 5px">Register Now</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  const observer = new IntersectionObserver((entries, observer)=>
+  {
+    entries.forEach( entry =>
+    {
+      if (entry.isIntersecting){
+        const area = document.getElementById('circle-spanning-area')
+        area.innerHTML =
+          "<span " +
+          "style=\"visibility: visible; animation: zoomIn 1s ease; right: -100px; top: -120px; opacity: .20; position: absolute; background-position: center; background-repeat: no-repeat;    height: 360px; width: 360px; background-image: url('icon-circle-3.png'); background-size: 100%;\">\n" +
+          "        </span>"
+      }
+    })
+  }, {threshold: 0})
+  const wrapper = document.getElementById('circle-spanning-wrapper')
+  observer.observe(wrapper)
+</script>
+</html>
