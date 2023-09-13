@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c2e2aecf-7262-4f42-88b7-9ce737ef64ed" name="Changes" comment="update Feature, split Header Banner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner/Banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/Banner/Banner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final_HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Final_HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon-circle-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Registration_Form/icon-circle-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration_Form/registration-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocket.png" beforeDir="false" afterPath="$PROJECT_DIR$/Registration_Form/rocket.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speaker-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LastestSection/footer_self.html" beforeDir="false" afterPath="$PROJECT_DIR$/LastestSection/footer_self.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,24 +56,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Web_Final_Term/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "C:/Users/khamb/Documents/GitHub/Web_Final_Term/scriptFolder",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\khamb\Documents\GitHub\Web_Final_Term\scriptFolder" />
       <recent name="D:\Web_Final_Term\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -125,6 +124,7 @@
       <workItem from="1694538537236" duration="1632000" />
       <workItem from="1694585722990" duration="780000" />
       <workItem from="1694618601293" duration="226000" />
+      <workItem from="1694622644919" duration="1439000" />
     </task>
     <task id="LOCAL-00001" summary="Header and Banner">
       <option name="closed" value="true" />
