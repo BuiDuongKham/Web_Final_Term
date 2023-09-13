@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2e2aecf-7262-4f42-88b7-9ce737ef64ed" name="Changes" comment="update Feature, split Header Banner">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final_HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Final_HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ticket/ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket/ticket.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
