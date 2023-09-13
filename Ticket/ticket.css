@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.7em;
+    font-weight: 400;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-block {
+    position: relative;
+    padding: 0 ;
+    margin-bottom: 40px;
+}
+.pricing-block:nth-child(1) {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    padding: 0 0 30px;
+    /*max-width: 370px;*/
+    /*margin: 0 auto;*/
+    border-bottom: 20px solid #40cbb4;
+}
+.pricing-block:nth-child(2) {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    padding: 0 0 30px;
+    /*max-width: 370px;*/
+    /*margin: 0 auto;*/
+    border-bottom: 20px solid #409acb;
+}
+.pricing-block:nth-child(3) {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    padding: 0 0 30px;
+    /*max-width: 370px;*/
+    /*margin: 0 auto;*/
+    border-bottom: 20px solid #d7b744;
+}
+
+.pricing-block .pricing-icon-box .pricing-icon-outer {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.pricing-icon-box:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+    border-radius: 50% 50% 0 0;
+    background-color: #ffffff;
+    content: "";
+}
+.pricing-icon{
+    animation: rotate_360 500ms ease;
+}
+.pricing-block:hover .pricing-icon{
+    animation: rotate360 500ms ease;
+}
+
+.pricing-block .price-box {
+    position: relative;
+    text-align: center;
+    padding: 10px 20px;
+}
+.pricing-block .price-title {
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 1.2em;
+    color: #222222;
+    font-weight: 600;
+}
+.pricing-block .pricing-features {
+    position: relative;
+    /*max-width: 200px;*/
+    margin: 0 auto 20px;
+}
+
+.pricing-block .pricing-features li {
+    position: relative;
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #848484;
+    font-weight: 500;
+    padding: 5px 0 5px 30px;
+    border-bottom: 1px dashed #dddddd;
+}
+@keyframes rotate360 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate_360 {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
