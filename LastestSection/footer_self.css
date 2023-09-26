@@ -200,3 +200,7 @@ ul{
 .foot-bottom a{
     font-weight: 600;
 }
+
+#exception{
+    position: relative;
+}
