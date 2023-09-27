@@ -4,7 +4,7 @@
     position:fixed;
     top: 0;
     left: 0;
-    z-index:999;
+    z-index:99;
     width:100%;
     transition: all 300ms ease;
 }
@@ -99,7 +99,7 @@
     left:0px;
     top:100%;
     width:220px;
-    z-index:100;
+    z-index:99;
     /*display:none;*/
     opacity: 1;
     visibility: visible;
@@ -160,7 +160,7 @@
     left:100%;
     top:100%;
     width:220px;
-    z-index:100;
+    z-index:99;
     /*display:none;*/
     opacity: 1;
     visibility: visible;

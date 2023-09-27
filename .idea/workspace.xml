@@ -7,7 +7,8 @@
     <list default="true" id="c2e2aecf-7262-4f42-88b7-9ce737ef64ed" name="Changes" comment="update Feature, split Header Banner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final_HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Final_HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LastestSection/footer_self.css" beforeDir="false" afterPath="$PROJECT_DIR$/LastestSection/footer_self.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration_Form/registration-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/Registration_Form/registration-form.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +127,8 @@
       <workItem from="1694622644919" duration="1988000" />
       <workItem from="1694854445865" duration="3000" />
       <workItem from="1695191524150" duration="724000" />
-      <workItem from="1695720008906" duration="1176000" />
+      <workItem from="1695720008906" duration="1374000" />
+      <workItem from="1695797478238" duration="5342000" />
     </task>
     <task id="LOCAL-00001" summary="Header and Banner">
       <option name="closed" value="true" />

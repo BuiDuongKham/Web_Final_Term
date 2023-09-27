@@ -33,13 +33,36 @@
 <body>
 <!--This is a trigger point for blurring the background of header-->
 <div id="trigger-point"></div>
+<!--This is a modal for registration form-->
+<div id="register-modal">
+  <div class="wrapper">
+    <div id="title">
+      Congratulations, you have successfully registered for the event
+    </div>
+    <div class="reg-name">
+      Name : <span id="guess-name"></span>
+    </div>
+    <div class="reg-mail">
+      Email : <span id="guess-email"></span>
+    </div>
+    <div class="reg-phone">
+      Phone : <span id="guess-phone"></span>
+    </div>
+    <div class="reg-message">
+      Message: <span id="guess-message"></span>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <button style="display: inline-block; padding: 5px 20px; color: white; font-size: 20px; background: hotpink; cursor: pointer; border-radius: 5px" id="close-modal">Close</button>
+    </div>
+  </div>
+</div>
 <!--  Header-->
 <div class="page-wrapper">
   
   <!-- Main Header -->
   <header class="main-header" id="main-header" style="background-color: #1e1f36;">
-    <div class="main-box" >
-      <div class="auto-container clearfix" >
+    <div class="main-box">
+      <div class="auto-container clearfix">
         <div class="logo-box">
           <div class="logo"><a href="#"><img src="images/logo.png" alt="" title=""></a></div>
         </div>
@@ -124,37 +147,47 @@
     <div class="banner-carousel" style="position: relative; width: 100%; height: 836px; text-align: center;
             align-content: center; justify-content: center; align-items: center; text-align: center;">
       <!-- Slide Item 1 -->
-      <div class="slide-item" style="background-image: url(https://expert-themes.com/html/eventrox/images/main-slider/1.jpg) ; position: relative; width: 100%; height: 100%;">
-        <div style="position: absolute; height: 100%; width: 100%; top:0; left:0; background: rgba(0,0,0,0.5); z-index: 2">
+      <div class="slide-item"
+           style="background-image: url(https://expert-themes.com/html/eventrox/images/main-slider/1.jpg) ; position: relative; width: 100%; height: 100%;">
+        <div
+          style="position: absolute; height: 100%; width: 100%; top:0; left:0; background: rgba(0,0,0,0.5); z-index: 2">
         </div>
-        <div  class="auto-container" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10">
+        <div class="auto-container"
+             style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10">
           <div id="content-in-header-1" class="content-box" style="animation: enter-from-bottom 0.5s ease;">
-            <span class="title" style="display: block; font-size: 28px; color: #faad1d; font-weight: 500; margin-bottom: 25px; transition: all 500ms ease;">January 20, 2023</span>
+            <span class="title"
+                  style="display: block; font-size: 28px; color: #faad1d; font-weight: 500; margin-bottom: 25px; transition: all 500ms ease;">January 20, 2023</span>
             <h2> World Digital <br>Conference 2023</h2>
             <ul class="info-list">
               <li><span class="icon fa fa-chair"></span> 5000 Seats</li>
               <li><span class="icon fa fa-user-alt"></span> 12 SPEAKERS</li>
               <li><span class="icon fa fa-map-marker-alt"></span> Palo, California</li>
             </ul>
-            <div class="btn-box"><a href="buy-ticket.html" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
+            <div class="btn-box"><a href="buy-ticket.html" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a>
+            </div>
           </div>
         </div>
       </div>
       
       <!-- Slide Item 2 -->
-      <div class="slide-item" style="background-image: url(https://expert-themes.com/html/eventrox/images/main-slider/2.jpg); position: absolute; width: 100%; height: 100%;">
-        <div style="position: absolute; height: 100%; width: 100%; top:0; left:0; background: rgba(0,0,0,0.5); z-index: 2">
+      <div class="slide-item"
+           style="background-image: url(https://expert-themes.com/html/eventrox/images/main-slider/2.jpg); position: absolute; width: 100%; height: 100%;">
+        <div
+          style="position: absolute; height: 100%; width: 100%; top:0; left:0; background: rgba(0,0,0,0.5); z-index: 2">
         </div>
-        <div class="auto-container" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10">
+        <div class="auto-container"
+             style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10">
           <div id="content-in-header-2" class="content-box" style="animation: enter-from-bottom 0.5s ease;">
-            <span class="title" style="display: block; font-size: 28px; color: #faad1d; font-weight: 500; margin-bottom: 25px; transition: all 500ms ease;">January 20, 2023</span>
+            <span class="title"
+                  style="display: block; font-size: 28px; color: #faad1d; font-weight: 500; margin-bottom: 25px; transition: all 500ms ease;">January 20, 2023</span>
             <h2> World Digital <br>Conference 2023</h2>
             <ul class="info-list">
               <li><span class="icon fa fa-chair"></span> 5000 Seats</li>
               <li><span class="icon fa fa-user-alt"></span> 12 SPEAKERS</li>
               <li><span class="icon fa fa-map-marker-alt"></span> Palo, California</li>
             </ul>
-            <div class="btn-box"><a href="#" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
+            <div class="btn-box"><a href="#" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a>
+            </div>
           </div>
         </div>
       </div>
@@ -166,18 +199,19 @@
     <div class="auto-container">
       <div class="outer-box">
         <div class="time-counter">
-          <div class="time-countdown clearfix" deadline="31/12/2023" style="display: flex; justify-content: center; gap:40px;">
+          <div class="time-countdown clearfix" deadline="31/12/2023"
+               style="display: flex; justify-content: center; gap:40px;">
             <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
               <div id="countdown-days" style="font-size: 60px; font-weight: 700; color: white; margin-bottom: 30px">
-              </div>  
+              </div>
               <div style="font-size: 20px; font-weight: 500; color: white">
                 Days
               </div>
             </div>
             <div style="font-size: 60px; font-weight: 700; color: white; margin-bottom: 30px">:</div>
-            <div >
+            <div>
               <div id="countdown-hours" style="font-size: 60px; font-weight: 700; color: white; margin-bottom: 30px">
-              </div>  
+              </div>
               <div style="font-size: 20px; font-weight: 500; color: white">
                 Hours
               </div>
@@ -185,7 +219,7 @@
             <div style="font-size: 60px; font-weight: 700; color: white; margin-bottom: 30px">:</div>
             <div>
               <div id="countdown-minutes" style="font-size: 60px; font-weight: 700; color: white; margin-bottom: 30px">
-              </div>  
+              </div>
               <div style="font-size: 20px; font-weight: 500; color: white">
                 Minutes
               </div>
@@ -193,7 +227,7 @@
             <div style="font-size: 60px; font-weight: 700; color: white; margin-bottom: 30px">:</div>
             <div>
               <div id="countdown-seconds" style="font-size: 60px; font-weight: 700; color: white; margin-bottom: 30px">
-              </div>  
+              </div>
               <div style="font-size: 20px; font-weight: 500; color: white">
                 seconds
               </div>
@@ -656,15 +690,15 @@
   </section>
   <!--End Speaker Section-->
   
-<!--  Fun Fact Section-->
+  <!--  Fun Fact Section-->
   <section id='fun-fact-section' style="position: relative; padding: 100px 0 50px;">
     <div id="fun-fact-wrapper"
          style="position:relative;display: grid; grid-auto-flow: column; grid-template-columns: 1fr 1fr 1fr 1fr">
     </div>
   </section>
-<!--  End Fun Fact Section-->
+  <!--  End Fun Fact Section-->
   
-<!--  TimeLine Section-->
+  <!--  TimeLine Section-->
   <section style="background-color: #fafafa; margin-top: 50px; padding: 0 15px">
     <div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
       <div
@@ -752,107 +786,163 @@
       </div>
     </div>
   </section>
-<!--  End TimeLine Section-->
+  <!--  End TimeLine Section-->
   
-<!--  Ticket Section-->
+  <!--  Ticket Section-->
   <section style="padding: 120px 100px 80px 100px">
-    <div style="color: transparent; background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 25%,rgba(247,0,104,1) 75%,rgba(68,16,102,1) 100%); font-size: 16px; line-height: 1em; font-weight: 500; letter-spacing: 5px; text-transform: uppercase; -webkit-background-clip: text; display: flex; justify-content: center">
+    <div
+      style="color: transparent; background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 25%,rgba(247,0,104,1) 75%,rgba(68,16,102,1) 100%); font-size: 16px; line-height: 1em; font-weight: 500; letter-spacing: 5px; text-transform: uppercase; -webkit-background-clip: text; display: flex; justify-content: center">
       Get Ticket
     </div>
-    <div style="display: flex; justify-content: center; font-size: 48px; line-height: 1.2em; font-weight: 700; font-family: 'Ubuntu', 'sans-serif'; color: black">
+    <div
+      style="display: flex; justify-content: center; font-size: 48px; line-height: 1.2em; font-weight: 700; font-family: 'Ubuntu', 'sans-serif'; color: black">
       Choose a ticket
     </div>
     <div style="display: grid; grid-auto-flow: column; grid-template-columns: 1fr 1fr 1fr; gap: 50px">
       <div class="pricing-block">
         <div class="pricing-inner-box">
-          <div class="pricing-icon-box" style=" position: relative; padding: 50px 30px 0; background-color: #40cbb4; text-align: center;">
+          <div class="pricing-icon-box"
+               style=" position: relative; padding: 50px 30px 0; background-color: #40cbb4; text-align: center;">
             <div class="pricing-icon-outer">
-              <span class="pricing-icon flaticon-paper-plane" style=" position: relative; display: block; height: 130px; width: 130px; line-height: 120px; border: 5px solid #40cbb4; border-radius: 50%; font-size: 70px; color: #40cbb4;"></span>
+              <span class="pricing-icon flaticon-paper-plane"
+                    style=" position: relative; display: block; height: 130px; width: 130px; line-height: 120px; border: 5px solid #40cbb4; border-radius: 50%; font-size: 70px; color: #40cbb4;"></span>
             </div>
           </div>
           <div class="price-box">
             <div class="price-title">Full Pass</div>
-            <h4 style=" display: block; font-size: 30px; font-weight: 700; color: #40cbb4; font-family: 'Ubuntu',sans-serif">
+            <h4
+              style=" display: block; font-size: 30px; font-weight: 700; color: #40cbb4; font-family: 'Ubuntu',sans-serif">
               $35.99
             </h4>
           </div>
           <ul class="pricing-features">
             
-            <li class="pricing-true"> <span class="flaticon-tick" style="color: green"></span><div> Conference Tickets</div></li>
+            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span>
+              <div> Conference Tickets</div>
+            </li>
             
-            <li class="pricing-true"> <span class="flaticon-tick" style="color: green"></span><div>Free Lunch And Coffee</div></li>
+            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span>
+              <div>Free Lunch And Coffee</div>
+            </li>
             
-            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span><div>Certificate</div></li>
+            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span>
+              <div>Certificate</div>
+            </li>
             
-            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span><div>Easy Access</div></li>
+            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span>
+              <div>Easy Access</div>
+            </li>
             
-            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span><div>Free Contacts</div></li>
+            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span>
+              <div>Free Contacts</div>
+            </li>
           
           </ul>
           <div style="display: flex; justify-content: center">
-            <button style="padding: 20px 40px;background: #40CBB4FF; outline-width: 0; border: 2px solid transparent; border-radius: 10px; cursor: pointer; color: white; transition: all 300ms ease" onmouseover="this.style.background = 'white'; this.style.color='#40CBB4FF'; this.style.borderBottom = '2px solid #40CBB4FF'; this.style.borderTop = '2px solid #40CBB4FF'" onmouseleave="this.style.background = '#40CBB4FF'; this.style.color='white'; this.style.border='2px solid transparent'">Buy Ticket</button>
+            <button
+              style="padding: 20px 40px;background: #40CBB4FF; outline-width: 0; border: 2px solid transparent; border-radius: 10px; cursor: pointer; color: white; transition: all 300ms ease"
+              onmouseover="this.style.background = 'white'; this.style.color='#40CBB4FF'; this.style.borderBottom = '2px solid #40CBB4FF'; this.style.borderTop = '2px solid #40CBB4FF'"
+              onmouseleave="this.style.background = '#40CBB4FF'; this.style.color='white'; this.style.border='2px solid transparent'">
+              Buy Ticket
+            </button>
           </div>
         </div>
       </div>
       <div class="pricing-block">
         <div class="pricing-inner-box">
-          <div class="pricing-icon-box" style=" position: relative; padding: 50px 30px 0; background-color: #409acb; text-align: center;">
+          <div class="pricing-icon-box"
+               style=" position: relative; padding: 50px 30px 0; background-color: #409acb; text-align: center;">
             <div class="pricing-icon-outer">
-              <span class="pricing-icon flaticon-diamond-1" style=" position: relative; display: block; height: 130px; width: 130px; line-height: 120px; border: 5px solid #409acb; border-radius: 50%; font-size: 70px; color: #409acb;"></span>
+              <span class="pricing-icon flaticon-diamond-1"
+                    style=" position: relative; display: block; height: 130px; width: 130px; line-height: 120px; border: 5px solid #409acb; border-radius: 50%; font-size: 70px; color: #409acb;"></span>
             </div>
           </div>
           <div class="price-box">
             <div class="price-title">Full Pass</div>
-            <h4 style=" display: block; font-size: 30px; font-weight: 700; color: #409acb; font-family: 'Ubuntu',sans-serif">
+            <h4
+              style=" display: block; font-size: 30px; font-weight: 700; color: #409acb; font-family: 'Ubuntu',sans-serif">
               $35.99
             </h4>
           </div>
           <ul class="pricing-features">
             
-            <li class="pricing-true"> <span class="flaticon-tick" style="color: green"></span><div> Conference Tickets</div></li>
+            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span>
+              <div> Conference Tickets</div>
+            </li>
             
-            <li class="pricing-true"> <span class="flaticon-tick" style="color: green"></span><div>Free Lunch And Coffee</div></li>
+            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span>
+              <div>Free Lunch And Coffee</div>
+            </li>
             
-            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span><div>Certificate</div></li>
+            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span>
+              <div>Certificate</div>
+            </li>
             
-            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span><div>Easy Access</div></li>
+            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span>
+              <div>Easy Access</div>
+            </li>
             
-            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span><div>Free Contacts</div></li>
+            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span>
+              <div>Free Contacts</div>
+            </li>
           
           </ul>
           <div style="display: flex; justify-content: center">
-            <button style="padding: 20px 40px;background: #409acb; outline-width: 0; border: 2px solid transparent; border-radius: 10px; cursor: pointer; color: white; transition: all 300ms ease" onmouseover="this.style.background = 'white'; this.style.color='#409acb'; this.style.borderBottom = '2px solid #409ACBFF'; this.style.borderTop = '2px solid #409ACBFF'" onmouseleave="this.style.background = '#409acb'; this.style.color='white'; this.style.border='2px solid transparent'">Buy Ticket</button>
+            <button
+              style="padding: 20px 40px;background: #409acb; outline-width: 0; border: 2px solid transparent; border-radius: 10px; cursor: pointer; color: white; transition: all 300ms ease"
+              onmouseover="this.style.background = 'white'; this.style.color='#409acb'; this.style.borderBottom = '2px solid #409ACBFF'; this.style.borderTop = '2px solid #409ACBFF'"
+              onmouseleave="this.style.background = '#409acb'; this.style.color='white'; this.style.border='2px solid transparent'">
+              Buy Ticket
+            </button>
           </div>
         </div>
       </div>
       <div class="pricing-block">
         <div class="pricing-inner-box">
-          <div class="pricing-icon-box" style=" position: relative; padding: 50px 30px 0; background-color: #d7b744; text-align: center;">
+          <div class="pricing-icon-box"
+               style=" position: relative; padding: 50px 30px 0; background-color: #d7b744; text-align: center;">
             <div class="pricing-icon-outer">
-              <span class="pricing-icon flaticon-paper-plane" style=" position: relative; display: block; height: 130px; width: 130px; line-height: 120px; border: 5px solid #d7b744; border-radius: 50%; font-size: 70px; color: #d7b744;"></span>
+              <span class="pricing-icon flaticon-paper-plane"
+                    style=" position: relative; display: block; height: 130px; width: 130px; line-height: 120px; border: 5px solid #d7b744; border-radius: 50%; font-size: 70px; color: #d7b744;"></span>
             </div>
           </div>
           <div class="price-box">
             <div class="price-title">Full Pass</div>
-            <h4 style=" display: block; font-size: 30px; font-weight: 700; color: #d7b744; font-family: 'Ubuntu',sans-serif">
+            <h4
+              style=" display: block; font-size: 30px; font-weight: 700; color: #d7b744; font-family: 'Ubuntu',sans-serif">
               $35.99
             </h4>
           </div>
           <ul class="pricing-features">
             
-            <li class="pricing-true"> <span class="flaticon-tick" style="color: green"></span><div> Conference Tickets</div></li>
+            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span>
+              <div> Conference Tickets</div>
+            </li>
             
-            <li class="pricing-true"> <span class="flaticon-tick" style="color: green"></span><div>Free Lunch And Coffee</div></li>
+            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span>
+              <div>Free Lunch And Coffee</div>
+            </li>
             
-            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span><div>Certificate</div></li>
+            <li class="pricing-true"><span class="flaticon-tick" style="color: green"></span>
+              <div>Certificate</div>
+            </li>
             
-            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span><div>Easy Access</div></li>
+            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span>
+              <div>Easy Access</div>
+            </li>
             
-            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span><div>Free Contacts</div></li>
+            <li class="pricing-false"><span class="flaticon-cancel" style="color: red"></span>
+              <div>Free Contacts</div>
+            </li>
           
           </ul>
           <div style="display: flex; justify-content: center">
-            <button style="padding: 20px 40px;background: #d7b744; outline-width: 0; border: 2px solid transparent; border-radius: 10px; cursor: pointer; color: white; transition: all 300ms ease" onmouseover="this.style.background = 'white'; this.style.color='#D7B744FF'; this.style.borderBottom = '2px solid #D7B744FF'; this.style.borderTop = '2px solid #D7B744FF'" onmouseleave="this.style.background = '#d7b744'; this.style.color='white'; this.style.border='2px solid transparent'">Buy Ticket</button>
+            <button
+              style="padding: 20px 40px;background: #d7b744; outline-width: 0; border: 2px solid transparent; border-radius: 10px; cursor: pointer; color: white; transition: all 300ms ease"
+              onmouseover="this.style.background = 'white'; this.style.color='#D7B744FF'; this.style.borderBottom = '2px solid #D7B744FF'; this.style.borderTop = '2px solid #D7B744FF'"
+              onmouseleave="this.style.background = '#d7b744'; this.style.color='white'; this.style.border='2px solid transparent'">
+              Buy Ticket
+            </button>
           </div>
         </div>
       </div>
@@ -860,8 +950,9 @@
   </section>
   <!--  End Ticket Section-->
   
-<!--  Video Section-->
-  <section class="video-section" style="background-image: url('images/1.jpg'); position: relative; display: block; font-size: 18px; line-height: 26px; color: #ffbc00; font-weight: 500; text-transform: uppercase; margin-bottom: 15px;">
+  <!--  Video Section-->
+  <section class="video-section"
+           style="background-image: url('images/1.jpg'); position: relative; display: block; font-size: 18px; line-height: 26px; color: #ffbc00; font-weight: 500; text-transform: uppercase; margin-bottom: 15px;">
     <div class="auto-container">
       <div class="content-box" style="align-items: center; text-align: center;">
         <div class="text" style="position: relative; display: block; font-size: 18px;
@@ -874,10 +965,11 @@
       </div>
     </div>
   </section>
-<!--  End Video Section-->
+  <!--  End Video Section-->
   
-<!--  Why Chose Section-->
-  <section id="why-choose-us" class="why-choose-us" style="position: relative; background-color: #fafafa; padding: 120px 0 70px; opacity: 0">
+  <!--  Why Chose Section-->
+  <section id="why-choose-us" class="why-choose-us"
+           style="position: relative; background-color: #fafafa; padding: 120px 0 70px; opacity: 0">
     <div class="auto-container">
       <div class="row" style="display: flex; margin-right: -15px; margin-left: -15px;">
         <div class="image-column " style="width: 570px;">
@@ -908,13 +1000,18 @@
               <h2
                 style="position: relative; display: inline-block; font-size: 48px;
                                 line-height: 1.2em; color: #1e1f36; font-weight: 700;">Why Choose Eventrox?</h2>
-              <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
+              <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt
+                labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+              </div>
             </div>
             <ul class="list-style-one">
               <li><i class="fa-regular fa-circle-check" style="color: #e1137b;"></i> High Quality Education</li>
               <li><i class="fa-regular fa-circle-check" style="color: #e1137b;"></i> You can learn anything</li>
               <li><i class="fa-regular fa-circle-check" style="color: #e1137b;"></i> We list your options by state</li>
-              <li><i class="fa-regular fa-circle-check" style="color: #e1137b;"></i> Expert-created content and resources</li>
+              <li><i class="fa-regular fa-circle-check" style="color: #e1137b;"></i> Expert-created content and
+                resources
+              </li>
             </ul>
             <div class="btn-box" style="margin-top: 40px">
               <a href="buy-ticket.html" class="theme-btn btn-style-two"> <span class="btn-title">Get Tickets</span> </a>
@@ -924,20 +1021,19 @@
       </div>
     </div>
   </section>
-<!--  End Why Chose Section-->
+  <!--  End Why Chose Section-->
   
-<!--  Sponsor Section-->
+  <!--  Sponsor Section-->
   <section class="clients-section">
     <div class="auto-container">
       
       <div class="sec-title" style="margin-bottom: 70px">
         
-        <span class="title" >Clients</span>
+        <span class="title">Clients</span>
         
         <h2>Offcial Sponsors</h2>
       
       </div>
-      
       
       
       <div class="sponsors-outer">
@@ -951,10 +1047,9 @@
           
           <div class="client-block" style="padding-left: 15px; padding-right: 15px;">
             
-            <figure class="image-box"><a href="#"><img  src="images/sponsor/1.png" alt=""></a></figure>
+            <figure class="image-box"><a href="#"><img src="images/sponsor/1.png" alt=""></a></figure>
           
           </div>
-          
           
           
           <!-- Client Block -->
@@ -966,7 +1061,6 @@
           </div>
           
           
-          
           <!-- Client Block -->
           
           <div class="client-block" style="padding-left: 15px; padding-right: 15px;">
@@ -974,7 +1068,6 @@
             <figure class="image-box"><a href="#"><img src="images/sponsor/3.png" alt=""></a></figure>
           
           </div>
-          
           
           
           <!-- Client Block -->
@@ -990,11 +1083,9 @@
       </div>
       
       
-      
       <div class="sponsors-outer">
         
         <h3>Gold Sponsors</h3>
-        
         
         
         <div class="row" style="display: flex; justify-content: space-between; flex-wrap: wrap;
@@ -1009,7 +1100,6 @@
           </div>
           
           
-          
           <!-- Client Block -->
           
           <div class="client-block" style="padding-left: 15px; padding-right: 15px;">
@@ -1019,7 +1109,6 @@
           </div>
           
           
-          
           <!-- Client Block -->
           
           <div class="client-block" style="padding-left: 15px; padding-right: 15px;">
@@ -1027,7 +1116,6 @@
             <figure class="image-box"><a href="#"><img src="images/sponsor/7.png" alt=""></a></figure>
           
           </div>
-          
           
           
           <!-- Client Block -->
@@ -1043,11 +1131,9 @@
       </div>
       
       
-      
       <div class="sponsors-outer">
         
         <h3>Silver Sponsors</h3>
-        
         
         
         <div class="row" style="display: flex; justify-content: space-between; flex-wrap: wrap;
@@ -1062,7 +1148,6 @@
           </div>
           
           
-          
           <!-- Client Block -->
           
           <div class="client-block" style="padding-left: 15px; padding-right: 15px;">
@@ -1072,7 +1157,6 @@
           </div>
           
           
-          
           <!-- Client Block -->
           
           <div class="client-block" style="padding-left: 15px; padding-right: 15px;">
@@ -1080,7 +1164,6 @@
             <figure class="image-box"><a href="#"><img src="images/sponsor/11.png" alt=""></a></figure>
           
           </div>
-          
           
           
           <!-- Client Block -->
@@ -1098,54 +1181,86 @@
     </div>
   
   </section>
-<!--  End Sponsor Section-->
+  <!--  End Sponsor Section-->
   
-<!--  Form Section-->
+  <!--  Form Section-->
   <section id="circle-spanning-wrapper" style="position: relative; padding: 130px 0 130px;background-color: #fafafa">
     <div style="position: static; max-width: 1200px; padding: 0 15px; margin: 0 auto;">
-      <div id= "circle-spanning-area" style="max-width: 100%; position: absolute; left: 0; top: 0; right: 0; height: 100%; width: 100%; margin: 0 auto;">
+      <div id="circle-spanning-area"
+           style="max-width: 100%; position: absolute; left: 0; top: 0; right: 0; height: 100%; width: 100%; margin: 0 auto;">
       </div>
       <div style="position: relative; box-shadow: 0 30px 50px rgba(0,0,0,0.10); background-color: #ffffff;">
         <div style="margin-right: 0; margin-left: 0;">
           <div style="display: grid; grid-auto-flow: column; grid-template-columns: 2fr 4fr">
             <div style="background: url('Registration_Form/rocket.png'); padding: 80px 50px 20px; width: 100%">
               <div style="display: flex; justify-content: center; align-items: center;">
-                <i style="display: flex;justify-content: center; align-items: center; height: 150px; width: 150px; background: white; border-radius: 50%; font-size: 80px" class="fa-solid fa-rocket"></i>
+                <i
+                  style="display: flex;justify-content: center; align-items: center; height: 150px; width: 150px; background: white; border-radius: 50%; font-size: 80px"
+                  class="fa-solid fa-rocket"></i>
               </div>
-              <div style="display: flex; justify-content: center; font-size: 34px; color: #ffffff; margin-top: 30px; font-weight: 700; margin-right: 0; margin-left: 0; padding-right: 0; padding-left: 0">
+              <div
+                style="display: flex; justify-content: center; font-size: 34px; color: #ffffff; margin-top: 30px; font-weight: 700; margin-right: 0; margin-left: 0; padding-right: 0; padding-left: 0">
                 REGISTER NOW
               </div>
-              <div style="display: flex; justify-content: center; align-items: center; font-size: 16px; line-height: 26px; color: #ffffff;">
-                <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie.</p>
+              <div
+                style="display: flex; justify-content: center; align-items: center; font-size: 16px; line-height: 26px; color: #ffffff;">
+                <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                  molestie.</p>
               </div>
             </div>
             <div style="position: relative; padding: 50px 30px 30px; background-color: #ffffff;">
-              <form>
+              <form id="registration-form">
                 <div style="margin-bottom: 20px; position:relative;">
                   <label style="display: none" for="name">Hello</label>
                   <i style="position:absolute; top:18px; left:10px; font-size: 16px" class="fa-solid fa-user"></i>
-                  <input type="text" style="border: 1px solid gray; width: 100%; height: 52px; line-height: 33px; padding: 10px 20px 10px 50px;" id="name" name="name" onfocus="this.style.border = '1px solid red'" onblur="this.style.border = '1px solid gray'" placeholder="Full Name">
+                  <input type="text"
+                         style="border: 1px solid gray; width: 100%; height: 52px; line-height: 33px; padding: 10px 20px 10px 50px;"
+                         id="name" name="name" onfocus="this.style.border = '1px solid red'"
+                         onblur="this.style.border = '1px solid gray'" placeholder="Full Name">
+                  <div id="name-error">
+                  
+                  </div>
                 </div>
                 <div style="margin-bottom: 20px; position:relative;">
                   <label style="display: none" for="mail">Hello</label>
                   <i style="position:absolute; top:18px; left:10px; font-size: 16px" class="fa-regular fa-envelope"></i>
-                  <input type="text" style="border: 1px solid gray; width: 100%; height: 52px; line-height: 33px; padding: 10px 20px 10px 50px;" id="mail" name="mail" onfocus="this.style.border = '1px solid red'" onblur="this.style.border = '1px solid gray'" placeholder="Email">
+                  <input type="text"
+                         style="border: 1px solid gray; width: 100%; height: 52px; line-height: 33px; padding: 10px 20px 10px 50px;"
+                         id="mail" name="mail" onfocus="this.style.border = '1px solid red'"
+                         onblur="this.style.border = '1px solid gray'" placeholder="Email">
+                  <div id="mail-error">
+                  
+                  </div>
                 </div>
                 <div style="margin-bottom: 20px; position:relative;">
                   <label style="display: none" for="phone">Hello</label>
                   <i style="position:absolute; top:18px; left:10px; font-size: 16px" class="fa-solid fa-phone"></i>
-                  <input type="text" style="border: 1px solid gray; width: 100%; height: 52px; line-height: 33px; padding: 10px 20px 10px 50px;" id="phone" name="phone" onfocus="this.style.border = '1px solid red'" onblur="this.style.border = '1px solid gray'" placeholder="Phone">
+                  <input type="text"
+                         style="border: 1px solid gray; width: 100%; height: 52px; line-height: 33px; padding: 10px 20px 10px 50px;"
+                         id="phone" name="phone" onfocus="this.style.border = '1px solid red'"
+                         onblur="this.style.border = '1px solid gray'" placeholder="Phone">
+                  <div id="phone-error">
+                  
+                  </div>
                 </div>
                 <div style="margin-bottom: 20px; position:relative;">
                   <label style="display: none" for="message">Hello</label>
                   <i style="position:absolute; top:18px; left:10px; font-size: 16px" class="fa-regular fa-comments"></i>
-                  <textarea style="border: 1px solid gray; width: 100%; padding: 10px 20px 10px 50px;" id="message" name="message" onfocus="this.style.border = '1px solid red'" onblur="this.style.border = '1px solid gray'" placeholder="Message"></textarea>
+                  <textarea style="border: 1px solid gray; width: 100%; padding: 10px 20px 10px 50px;" id="message"
+                            name="message" onfocus="this.style.border = '1px solid red'"
+                            onblur="this.style.border = '1px solid gray'" placeholder="Message"></textarea>
+                  <div id="message-error">
+                  
+                  </div>
                 </div>
                 <div style="display: flex; justify-content: end">
-                  <button id="register-button" type="submit" style="display: block; padding: 0; position: relative;cursor: pointer; line-height: 25px; font-size: 14px; background: #24293d; color: white; width: 100px; height: 40px; border-radius: 10px">
-                    <span id="register-button-background" style="display: block; width: 100%; height: 100%;position: absolute; top: 0; right: 0;  background: #ffffff;border-radius: 8px; z-index: 1">
+                  <button id="register-button"
+                          style="display: block; padding: 0; position: relative;cursor: pointer; line-height: 25px; font-size: 14px; background: #24293d; color: white; width: 100px; height: 40px; border-radius: 10px">
+                    <span id="register-button-background"
+                          style="display: block; width: 100%; height: 100%;position: absolute; top: 0; right: 0;  background: #ffffff;border-radius: 8px; z-index: 1">
                     </span>
-                    <span id="register-button-inner-text" style=" position:absolute; width: 100%; height: 100%; z-index: 9; top:0; right:0; padding: 5px 5px">Register Now</span>
+                    <span id="register-button-inner-text"
+                          style=" position:absolute; width: 100%; height: 100%; z-index: 9; top:0; right:0; padding: 5px 5px">Register Now</span>
                   </button>
                 </div>
               </form>
@@ -1154,10 +1269,10 @@
         </div>
       </div>
     </div>
-  </section> 
-<!--  End Form Section-->
+  </section>
+  <!--  End Form Section-->
   
-<!--  Footer-->
+  <!--  Footer-->
   <section class="flex-col">
     <!-- lastest news -->
     <div id="exception" class="lastest_new flex-col">
@@ -1170,7 +1285,7 @@
       <div class="big_title">Lastest News</div>
       <!-- các khối tin -->
       <div class="flex-row news">
-        <!-- khối tin 1 -->
+        <!-- khối tii 1 -->
         <div style="overflow: hidden" class="new flex-col">
           <!-- ảnh -->
           <div class="img_box">
@@ -1190,7 +1305,7 @@
               </div>
             </div>
             <div class="lastest_new_title">
-              <a  href="#">International Conference on Art Business</a>
+              <a href="#">International Conference on Art Business</a>
             </div>
             <div class="read_more_button">
               <a href="#">Read More</a>
@@ -1216,7 +1331,7 @@
               </div>
             </div>
             <div class="lastest_new_title">
-              <a  href="#">International Conference on Art Business</a>
+              <a href="#">International Conference on Art Business</a>
             </div>
             <div class="read_more_button">
               <a href="#">Read More</a>
@@ -1242,7 +1357,7 @@
               </div>
             </div>
             <div class="lastest_new_title">
-              <a  href="#">International Conference on Art Business</a>
+              <a href="#">International Conference on Art Business</a>
             </div>
             <div class="read_more_button">
               <a href="#">Read More</a>
@@ -1269,16 +1384,18 @@
                 <img class="eventrox-img" src="https://expert-themes.com/html/eventrox/images/logo.png" alt="">
               </a>
               <div class="eventrox-text">
-                <p class="text">We have very good strength in innovative technology and tools with over 35 years of experience. We makes long-term investments goal in global companies in different sectors, mainly in Europe and other countries.</p>
+                <p class="text">We have very good strength in innovative technology and tools with over 35 years of
+                  experience. We makes long-term investments goal in global companies in different sectors, mainly in
+                  Europe and other countries.</p>
               </div>
               <div>
                 <ul class="eventrox-link" style="list-style: none;">
-                  <li >
+                  <li>
                     <a href="#">
                       <i class="fab fa-facebook-f"></i>
                     </a>
                   </li>
-                  <li >
+                  <li>
                     <a href="#">
                       <i class="fab fa-twitter"></i>
                     </a>
@@ -1288,12 +1405,12 @@
                       <i class="fab fa-pinterest"></i>
                     </a>
                   </li>
-                  <li >
+                  <li>
                     <a href="#">
                       <i class="fab fa-youtube"></i>
                     </a>
                   </li>
-                  <li >
+                  <li>
                     <a href="#">
                       <i class="fab fa-dribbble"></i>
                     </a>
@@ -1308,23 +1425,23 @@
                 Useful Links
               </h2>
               <span class="foot-line"></span>
-              <ul >
-                <li >
+              <ul>
+                <li>
                   <a href="#">Home</a>
                 </li>
-                <li >
+                <li>
                   <a href="#">About Us</a>
                 </li>
-                <li >
+                <li>
                   <a href="#">Services</a>
                 </li>
-                <li >
+                <li>
                   <a href="#">Projects</a>
                 </li>
-                <li >
+                <li>
                   <a href="#">Blogs</a>
                 </li>
-                <li >
+                <li>
                   <a href="#">Contact Us</a>
                 </li>
               </ul>
@@ -1339,21 +1456,21 @@
               </h2>
               <span class="foot-line"></span>
               <ul>
-                <li >
+                <li>
                   <span class="fa-regular fa-clock"></span>
                   <div>Mon - Fri: 09:00 - 18:00</div>
-                </li >
-                <li >
+                </li>
+                <li>
                   <span class="fa-solid fa-phone-volume"></span>
                   <div><a href="tel:+1-345-5678-77">+1-345-5678-77</a></div>
                 </li>
-                <li >
+                <li>
                   <span class="fa-regular fa-paper-plane"></span>
                   <div><a href="mailto:support@example.com">support@example.com</a></div>
                 </li>
                 <li>
                   <span class="fa-solid fa-earth-americas"></span>
-                  <div >13005 Greenville Avenue<br> California, TX 70240</div>
+                  <div>13005 Greenville Avenue<br> California, TX 70240</div>
                 </li>
               </ul>
             </div>
@@ -1364,34 +1481,34 @@
               </h2>
               <span class="foot-line"></span>
               <div class="flex-row insta-img">
-                <figure >
+                <figure>
                   <a href="#" class="lightbox-image" title="Image Title Here">
-                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-1.jpg" alt="" >
+                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-1.jpg" alt="">
                   </a>
                 </figure>
                 <figure>
                   <a href="#" class="lightbox-image" title="Image Title Here">
-                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-2.jpg" alt="" >
-                  </a>
-                </figure>
-                <figure >
-                  <a href="#" class="lightbox-image" title="Image Title Here">
-                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-3.jpg" alt="" >
-                  </a>
-                </figure>
-                <figure >
-                  <a href="#" class="lightbox-image" title="Image Title Here">
-                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-4.jpg" alt="" >
+                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-2.jpg" alt="">
                   </a>
                 </figure>
                 <figure>
                   <a href="#" class="lightbox-image" title="Image Title Here">
-                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-5.jpg" alt="" >
+                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-3.jpg" alt="">
                   </a>
                 </figure>
-                <figure >
+                <figure>
                   <a href="#" class="lightbox-image" title="Image Title Here">
-                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-6.jpg" alt="" >
+                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-4.jpg" alt="">
+                  </a>
+                </figure>
+                <figure>
+                  <a href="#" class="lightbox-image" title="Image Title Here">
+                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-5.jpg" alt="">
+                  </a>
+                </figure>
+                <figure>
+                  <a href="#" class="lightbox-image" title="Image Title Here">
+                    <img src="https://expert-themes.com/html/eventrox/images/resource/gw-6.jpg" alt="">
                   </a>
                 </figure>
               </div>
@@ -1407,8 +1524,8 @@
         </p>
       </div>
     </div>
-  </section> 
-<!--  End Footer-->
+  </section>
+  <!--  End Footer-->
 </div>
 <!--This is script for sliding banner-->
 <script src="scriptFolder/BannerTransition.js"></script>
@@ -1422,6 +1539,8 @@
 <script src="scriptFolder/FunFactIncreasingNumber.js"></script>
 <!--This is script for timeline script-->
 <script src="scriptFolder/TimeLineScript.js"></script>
+<!--This is script for form validation-->
+<script src="scriptFolder/RegistrationForm.js"></script>
 <!--This is script for expanding the circle at registration form-->
 <script src="scriptFolder/CircleRegistrationExpanding.js"></script>
 </body>

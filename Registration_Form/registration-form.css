@@ -51,3 +51,49 @@ input:focus,textarea:focus
 #register-button:hover #register-button-inner-text{
     color: black;
 }
+
+body{
+    position: relative;
+}
+
+#register-modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 100;
+    background: black;
+}
+
+#register-modal .wrapper{
+    background: white;
+    color: black;
+    width: 70%;
+    height: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#register-modal .wrapper #title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 2em;
+}
+
+#register-modal .wrapper .reg-name, #register-modal .wrapper .reg-mail, #register-modal .wrapper .reg-phone , #register-modal .wrapper .reg-message{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 200px;
+}
