@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c2e2aecf-7262-4f42-88b7-9ce737ef64ed" name="Changes" comment="update Feature, split Header Banner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner/Banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/Banner/Banner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final_HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Final_HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registration_Form/registration-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/Registration_Form/registration-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptFolder/FunFactIncreasingNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/scriptFolder/FunFactIncreasingNumber.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +69,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -128,7 +129,12 @@
       <workItem from="1694854445865" duration="3000" />
       <workItem from="1695191524150" duration="724000" />
       <workItem from="1695720008906" duration="1374000" />
-      <workItem from="1695797478238" duration="5342000" />
+      <workItem from="1695797478238" duration="5854000" />
+      <workItem from="1697376987574" duration="31000" />
+      <workItem from="1697377035708" duration="2579000" />
+      <workItem from="1697380687719" duration="3580000" />
+      <workItem from="1697420545567" duration="1295000" />
+      <workItem from="1697468039741" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="Header and Banner">
       <option name="closed" value="true" />

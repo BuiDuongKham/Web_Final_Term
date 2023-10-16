@@ -94,24 +94,24 @@
                 </li>
                 <li class="dropdown"><a href="#">About</a>
                   <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#about-section">About Us</a></li>
+                    <li><a href="#features-section-two">Pricing</a></li>
                     <li><a href="#">FAQ's</a></li>
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Coming Soon</a></li>
                   </ul>
                 </li>
-                <li class="dropdown"><a href="#">Speakers</a>
+                <li class="dropdown"><a href="#speaker-section">Speakers</a>
                   <ul>
-                    <li><a href="#">Speakers</a></li>
-                    <li><a href="#">Speakers Detail</a></li>
+                    <li><a href="#speaker-section">Speakers</a></li>
+                    <li><a href="#speaker-section">Speakers Detail</a></li>
                   </ul>
                 </li>
                 <li class="dropdown"><a href="#">Schedule</a>
                   <ul>
-                    <li><a href="#">Schedule</a></li>
-                    <li><a href="#">Event Detail</a></li>
-                    <li><a href="#">Buy Ticket</a></li>
+                    <li><a href="#schedule-section">Schedule</a></li>
+                    <li><a href="#schedule-section">Event Detail</a></li>
+                    <li><a href="#ticket-section">Buy Ticket</a></li>
                   </ul>
                 </li>
                 <li class="dropdown"><a href="#">Blog</a>
@@ -122,7 +122,7 @@
                     <li><a href="#">404 Error</a></li>
                   </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#footer-section">Contact</a></li>
               </ul>
             </div>
           </nav>
@@ -386,15 +386,17 @@
   <!--End Features Section -->
   
   <!--Speaker Section-->
-  <section
+  <section id="speaker-section"
     style="background-image: url('Speaker/speaker-background.jpg'); background-clip: content-box">
-    <div style="width: 100%; height: 100%; background: rgba(28,139,210,.50); padding-top:120px; padding-bottom: 120px">
+    <div 
+      style="width: 100%; height: 100%; background: rgba(28,139,210,.50); padding-top:120px; padding-bottom: 120px">
       <div style="display: flex; flex-direction: column;align-items: center; justify-content: center">
         <div
           style="text-transform: uppercase; font-size: 16px; font-weight: 500; letter-spacing: 5px; color: #ffffff; line-height: 1em; margin-bottom: 15px">
           speakers
         </div>
-        <h2 style="font-size: 48px ; color: white; font-family: 'Ubuntu', sans-serif; font-weight: 700">
+        <h2 
+          style="font-size: 48px ; color: white; font-family: 'Ubuntu', sans-serif; font-weight: 700">
           Today's Performers
         </h2>
       </div>
@@ -699,7 +701,7 @@
   <!--  End Fun Fact Section-->
   
   <!--  TimeLine Section-->
-  <section style="background-color: #fafafa; margin-top: 50px; padding: 0 15px">
+  <section id="schedule-section" style="background-color: #fafafa; margin-top: 50px; padding: 0 15px">
     <div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
       <div
         style="text-transform: uppercase;font-size: 16px; font-weight: 500;letter-spacing: 5px;font-family: 'Poppins', sans-serif; color: #ec167f">
@@ -789,7 +791,7 @@
   <!--  End TimeLine Section-->
   
   <!--  Ticket Section-->
-  <section style="padding: 120px 100px 80px 100px">
+  <section id="ticket-section" style="padding: 120px 100px 80px 100px">
     <div
       style="color: transparent; background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 25%,rgba(247,0,104,1) 75%,rgba(68,16,102,1) 100%); font-size: 16px; line-height: 1em; font-weight: 500; letter-spacing: 5px; text-transform: uppercase; -webkit-background-clip: text; display: flex; justify-content: center">
       Get Ticket
@@ -809,7 +811,7 @@
             </div>
           </div>
           <div class="price-box">
-            <div class="price-title">Full Pass</div>
+            <div class="price-title">Day Pass</div>
             <h4
               style=" display: block; font-size: 30px; font-weight: 700; color: #40cbb4; font-family: 'Ubuntu',sans-serif">
               $35.99
@@ -861,7 +863,7 @@
             <div class="price-title">Full Pass</div>
             <h4
               style=" display: block; font-size: 30px; font-weight: 700; color: #409acb; font-family: 'Ubuntu',sans-serif">
-              $35.99
+              $99.99
             </h4>
           </div>
           <ul class="pricing-features">
@@ -907,10 +909,10 @@
             </div>
           </div>
           <div class="price-box">
-            <div class="price-title">Full Pass</div>
+            <div class="price-title">Group Pass</div>
             <h4
               style=" display: block; font-size: 30px; font-weight: 700; color: #d7b744; font-family: 'Ubuntu',sans-serif">
-              $35.99
+              $199.99
             </h4>
           </div>
           <ul class="pricing-features">
@@ -1371,7 +1373,7 @@
     </div>
     
     <!-- all footer -->
-    <div class="footer-background flex-col">
+    <div id="footer-section" class="footer-background flex-col">
       <!-- top footer -->
       <div class="flex-row top-footer">
         <!-- box1 + box2 -->

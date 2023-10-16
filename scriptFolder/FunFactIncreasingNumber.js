@@ -65,7 +65,7 @@ const observer = new IntersectionObserver((entries, observer) => {
         node.style.flexDirection = 'column';
         node.style.justifyContent = 'center';
         node.style.alignItems = "center";
-        node.innerHTML = '<div><p style="display: block; background-color: #40cbb4; font-size: 60px; color: white; padding: 20px 28px; border-radius: 50%" class="fa-solid fa-bookmark fun-fact-icon"></p></div><div id="counter2" style=" font-size: 60px; line-height: 1em; color: #15212f; text-shadow: 10px 10px 10px rgba(0,0,0,0.10); font-weight: 600; margin-bottom: 10px;"></div><div style="color: #40cbb4;    position: relative; display: block; font-size: 18px; line-height: 22px; font-weight: 700;">Participants</div>'
+        node.innerHTML = '<div><p style="display: block; background-color: #40cbb4; font-size: 60px; color: white; padding: 20px 28px; border-radius: 50%" class="fa-solid fa-bookmark fun-fact-icon"></p></div><div id="counter2" style=" font-size: 60px; line-height: 1em; color: #15212f; text-shadow: 10px 10px 10px rgba(0,0,0,0.10); font-weight: 600; margin-bottom: 10px;"></div><div style="color: #40cbb4;    position: relative; display: block; font-size: 18px; line-height: 22px; font-weight: 700;">Awards Win</div>'
         wrapper.appendChild(node)
         increCounter2()
       }, 500)
@@ -77,7 +77,7 @@ const observer = new IntersectionObserver((entries, observer) => {
         node.style.flexDirection = 'column';
         node.style.justifyContent = 'center';
         node.style.alignItems = "center";
-        node.innerHTML = '<div><p style="display: block; background-color: #4c35a9; font-size: 60px; color: white; padding: 20px; border-radius: 50%" class="fa-solid fa-thumbs-up fun-fact-icon"></p></div><div id="counter3" style=" font-size: 60px; line-height: 1em; color: #15212f; text-shadow: 10px 10px 10px rgba(0,0,0,0.10); font-weight: 600; margin-bottom: 10px;"></div><div style="color: #4c35a9;    position: relative; display: block; font-size: 18px; line-height: 22px; font-weight: 700;">Participants</div>'
+        node.innerHTML = '<div><p style="display: block; background-color: #4c35a9; font-size: 60px; color: white; padding: 20px; border-radius: 50%" class="fa-solid fa-thumbs-up fun-fact-icon"></p></div><div id="counter3" style=" font-size: 60px; line-height: 1em; color: #15212f; text-shadow: 10px 10px 10px rgba(0,0,0,0.10); font-weight: 600; margin-bottom: 10px;"></div><div style="color: #4c35a9;    position: relative; display: block; font-size: 18px; line-height: 22px; font-weight: 700;">Certificated Teachers</div>'
         wrapper.appendChild(node)
         increCounter3()
       }, 1000)
@@ -89,7 +89,7 @@ const observer = new IntersectionObserver((entries, observer) => {
         node.style.flexDirection = 'column';
         node.style.justifyContent = 'center';
         node.style.alignItems = "center";
-        node.innerHTML = '<div><p style="display: block; background-color: #e6275a; font-size: 60px; color: white; padding: 20px 25px; border-radius: 50%" class="fa-solid fa-book fun-fact-icon"></p></div><div id="counter4" style=" font-size: 60px; line-height: 1em; color: #15212f; text-shadow: 10px 10px 10px rgba(0,0,0,0.10); font-weight: 600; margin-bottom: 10px;"></div><div style="color: #e6275a;    position: relative; display: block; font-size: 18px; line-height: 22px; font-weight: 700;">Participants</div>'
+        node.innerHTML = '<div><p style="display: block; background-color: #e6275a; font-size: 60px; color: white; padding: 20px 25px; border-radius: 50%" class="fa-solid fa-book fun-fact-icon"></p></div><div id="counter4" style=" font-size: 60px; line-height: 1em; color: #15212f; text-shadow: 10px 10px 10px rgba(0,0,0,0.10); font-weight: 600; margin-bottom: 10px;"></div><div style="color: #e6275a;    position: relative; display: block; font-size: 18px; line-height: 22px; font-weight: 700;">Courses</div>'
         wrapper.appendChild(node)
         increCounter4()
       }, 1500)
